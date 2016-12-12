@@ -1,0 +1,8 @@
+<p>Sayın %%NAME%%,</p>
+<p>"%%SUBJECT%%" konulu talebin durumu kapalı/çözüldü olarak güncelleştirildi.</p>
+<p>Talep Takip ID: %%TRACK_ID%%</p>
+<p>Talebin durumunu buradan görüntüleyebilirsiniz:
+%%TRACK_URL%%</p>
+<p>Saygılarımızla,</p>
+%%SITE_TITLE%% <br>
+%%SITE_URL%%

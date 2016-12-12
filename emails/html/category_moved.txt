@@ -1,0 +1,13 @@
+<p>Merhaba,</p>
+<p>Yeni bir talep sizin kategorinize taşındı. Talep Detayları Aşağıdadır :</p>
+<p>Talep Konusu: %%SUBJECT%%<br>
+Takip ID: %%TRACK_ID%%</p>
+<p>Talebi yönetmek için buraya tıklayınız:
+%%TRACK_URL%%</p>
+<br>
+<p>* BU MESAJI YANITLAMAYIN *<br/ >Bu otomatik mesaj destek sistemi tarafından oluţturulmuţtur. Bu mesajı yanıtlamayınız, cevabınız ulaşmayacaktır.!</p>
+<p>E-Posta bilgilendirme ayarlarınızı değiştirmek için destek masasına yönetici girişi yaparak "Profil" bölümüne giriniz.</p>
+<p>Saygılarımızla,</p>
+
+%%SITE_TITLE%% <br>
+%%SITE_URL%%

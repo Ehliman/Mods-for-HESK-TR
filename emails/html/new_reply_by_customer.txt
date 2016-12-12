@@ -1,0 +1,11 @@
+<p>Merhaba,</p>
+<p>Bir kullanıcı talebi cevapladı "%%SUBJECT%%".</p>
+<p>Talebi buradan görebilirsiniz:
+%%TRACK_URL%%</p>
+<p>* BU MESAJI YANITLAMAYIN *<br />Bu otomatik mesaj destek sistemi tarafından oluşturulmuştur.</p> 
+<p>Bu e-posta mesajını cevaplamayınız, cevabınız ulaşmayacaktır!</p>
+<p>E-Posta bilgilendirme ayarlarınızı değiştirmek için destek masasına yönetici girişi yaparak "Profil" bölümüne giriniz.</p>
+
+<p>Saygılarımızla,</p>
+%%SITE_TITLE%% <br>
+%%SITE_URL%%

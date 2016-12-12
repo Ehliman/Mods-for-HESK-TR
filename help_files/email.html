@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Hesk ayarları için etkileşimli yardım</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="help_style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- next: 68 -->
+
+<h3>Hesk ayarları için etkileşimli yardım</h3>
+
+<p>&nbsp;</p>
+
+<a name="55"> </a> <p class = "title"> E-posta gönderen </p>
+<p> HESK, e-postaları usign PHP mail () işlevi veya el ile kurulum yapan bir SMTP sunucusu kullanarak göndermelidir. </p>
+
+<p> PHP postaları () çoğu kurulumda çalışmalıdır, aksi takdirde bir SMTP sunucusu kurmayı deneyebilirsiniz. </p>
+
+<p> Kullanılabilir SMTP değişkenleri: </p>
+
+<p>
+    <b> SMTP Sunucusu </b> - SMTP sunucunuzun ana makine adı, genellikle <i> yerelhost </i> veya <i> mail.example.com </i> <br/>
+    <b> SMTP Bağlantı Noktası </b> - SMTP bağlantı noktanız, genellikle 25 <br/>
+    <b> SMTP Zaman Aşımı </b> - SMTP zaman aşımı saniye cinsindendir <br/>
+    <b> SSL Protokolü </b> - SMTP sunucunuz SSL protokolünü gerektiriyorsa etkinleştirin <br/>
+    <b> TLS Protokolü </b> - SMTP sunucunuz TLS protokolünü gerektiriyorsa etkinleştirin <br/>
+    <b> SMTP Kullanıcı Adı </b> - SMTP kullanıcı adınız (kullanılıyorsa) <br/>
+    <b> SMTP Parolası </b> - SMTP şifreniz (kullanılıyorsa) <br/>
+</p>
+
+<p> &nbsp; </p>
+
+<P align = "center"> <a href="#" onclick="Javascript:window.close()"> Pencereyi kapat </a></p>
+
+<p> &nbsp; </p>
+<p> &nbsp; </p>
+<p> &nbsp; </p>
+<p> &nbsp; </p>
+
+<a name="54"> </a> <p class = "title"> E-posta Gönderme </p>
+
+<p> E-posta borulamasını etkinleştirir (e-postalardan talepler oluşturma). </p>
+
+<p> Bu seçenek sadece HESK'daki boru hattı işlevselliğini sağlar, e-posta boru tesisatının tamamı için lütfen readme.html dosyasına bakın. </p>
+
+<p>&nbsp;</p>
+
+<P align = "center"> <a href="#" onclick="Javascript:window.close()"> Pencereyi kapat </a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="59"> </a> <p class = "title"> POP3 Alma </p>
+
+<p> Bu ayar, POP3 bağlantısını kullanarak bir e-posta hesabına bağlanarak, e-postalardan talepler oluşturmak için POP3 Alındığını etkinleştirir veya devre dışı bırakır.
+
+<p> POP3 Getirme'yi kurma hakkında talimatlar için lütfen readme.html dosyasına bakın. </p>
+
+<p> Kullanılabilir değişkenler şunlardır: </p>
+
+<p> <b> Görev Zaman Aşımı </b> - mevcut bir POP3 getirme işi için beklenecek dakika sayısı
+    tamamlayınız. Zaman aşımına varılıncaya kadar yeni getirme işleri başlamaz.
+    Zamanaşımlarını devre dışı bırakmak ve her zaman yeni bir getirme işi başlatmak için <b> 0 </b> olarak ayarlayın. </p>
+
+<p>
+    <b> POP3 Ana </b> - POP3 sunucunuzun ana makine adı, genellikle <i> mail.example.com </i> <br/>
+    <b> POP3 Bağlantı Noktası </b> - POP3 bağlantı noktanız, genellikle 110. Gmail, örneğin 995 kullanır <br/>
+    <b> TLS Protokolü </b> - POP3 sunucunuz TLS protokolünü gerektiriyorsa etkinleştirin <br/>
+    <b> bir kopyasını sakla </b> - etkinleştirilirse, HESK, postaları POP3 sunucusundan silmez<br/>
+<b> POP3 Kullanıcı Adı </b> - POP3 kullanıcı adınız <br/>
+<b> POP3 Şifre </b> - POP3 şifreniz <br/>
+</p>
+
+<p>&nbsp;</p>
+
+<P align = "center"> <a href="#" onclick="Javascript:window.close()"> Pencereyi kapat </a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="67"> </a> <p class = "title"> IMAP Alma </p>
+
+<p> Bu ayar, IMAP Alma özelliğini etkinleştirir veya devre dışı bırakır - IMAP bağlantısı kullanan bir e-posta hesabına bağlanarak e-postalardan talepler oluşturma.
+
+<p> IMAP Yükleme kurulumuyla ilgili talimatlar için lütfen readme.html dosyasına bakın. </p>
+
+<p> Kullanılabilir değişkenler şunlardır: </p>
+
+<p> <b> Görev Zaman Aşımı </b> - mevcut bir IMAP alma işini beklemek için dakika sayısı
+    tamamlayınız. Zaman aşımına varılıncaya kadar yeni getirme işleri başlamaz.
+    Zamanaşımlarını devre dışı bırakmak ve her zaman yeni bir getirme işi başlatmak için <b> 0 </b> olarak ayarlayın. </p>
+
+<p>
+    <b> IMAP Host </b> - IMAP sunucunuzun ana makine adı, genellikle <i> mail.example.com </i> <br/>
+    <b> IMAP Bağlantı Noktası </b> - IMAP bağlantı noktanız; şifrelenmemişler için 143, SSL / TLS için 993. <br/>
+    <b> Şifreleme </b> - gerekli IMAP şifrelemesini ayarla <br/>
+    <b> bir kopyasını sakla </b> - etkinleştirilirse, HESK, IMAP sunucusundaki postaları <b> değil </b> silmez <br/>
+    <b> IMAP Kullanıcı Adı </b> - IMAP kullanıcı adınız <br/>
+    <b> IMAP Şifre </b> - IMAP şifreniz <br/>
+</p>
+
+<p>&nbsp;</p>
+
+<P align = "center"> <a href="#" onclick="Javascript:window.close()"> Pencereyi kapat </a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="60"> </a> <p class = "title"> E-posta Döngüleri </p>
+
+<p> Otomatik cevaplayıcılardan veya erişilemeyen e-postalardan oluşturulan e-posta döngülerini saptamaya yardımcı olacak ayarlar. </p>
+
+<p> <b> Zaman Çizelgesi </b> saniye içindeki bir e-posta adresinden herhangi bir sayıda e-postanın <b> En Çok Görüntülenilen Sayısı </b> daha yüksek olması
+    E-posta borulamasıyla yok sayılır. </p>
+
+<p> Döngü algılamayı devre dışı bırakmak için <b> En Yüksek Hits </b> değerini <b> 0 </b> olarak ayarlayın. </p>
+
+<p> Bu özelliğin yalnızca E-posta yönlendirme veya POP3 Getirme etkinleştirildiğinde kullanılacağını unutmayın. </p>
+
+<p> &nbsp; </p>
+
+<P align = "center"> <a href="#" onclick="Javascript:window.close()"> Pencereyi kapat </a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="62"> </a> <p class = "title"> E-posta yazım hatalarını tespit edin </p>
+
+<p> Bu işlev, yaygın e-posta alan adının yazım hatalı yazım hatalarını tespit etmeye ve düzeltilmiş bir sürüm önermeye çalışacaktır. </p>
+
+<p> Örneğin, müşteri@<span style = "color: red"> <b> gmail.com </b> </span> kullanıcısına girerse HESK bunu algılar ve önerir
+    Bunun yerine kullanıcı@ <span style = "color: green"> <b> gmail.com </b> </span>. </p>
+
+<p> HESK, e-posta alanlarını <i> E-posta sağlayıcıları </i> listesinde listelenen alanlarla karşılaştırır. </p>
+
+<p> &nbsp; </p>
+
+<a name="63"> </a> <p class = "title"> E-posta sağlayıcıları </p>
+
+<p> Müşterilerinizin kullandığı yaygın e-posta sağlayıcılarının bir listesi. HESK, yanlış girilen e-posta adreslerini algılamaya çalışmak için bu listeyi kullanacaktır. </p>
+
+<p> Her satıra bir alan girin, <u> olmadan </u> @ işaretini kullanın. </p>
+
+<p> Herhangi bir sayıda ortak alan adını girebilirsiniz, ancak abartmayın - yalnızca en yaygın alan adlarını girin. </p>
+
+<p> &nbsp; </p>
+
+<P align = "center"> <a href="#" onclick="Javascript:window.close()"> Pencereyi kapat </a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="65"> </a> <p class = "title"> Müşteriyi </p>
+
+<p> HESK'ın müşterilere ne zaman bir e-posta bildirimi göndermesi gerektiğini seçin: </p>
+
+<ul>
+    <Li> <b> müşteri yeni bir destek talebi gönderdiğinde </b> <br/> <br/>
+        Not: e-posta yoluyla gönderilirse (e-posta borulaması veya POP3 getirme) HESK,
+        E-posta konusu içeriyorsa, müşteriye yeni bir talep bildirimi göndermeyi atla
+        Metin kutusuna listelenen etiketlerden biri (her satırda bir etiket). <br/> <br/> Bunu önlemek için kullanabilirsiniz
+        Sunucu SPAM filtresi tarafından olası SPAM olarak algılanan e-postalara otomatik olarak yanıt verir. <br/> &nbsp;
+    </li>
+    <Li> <b> bir destek talebi Çözümlendi olarak işaretlendiğinde </b> (yanıtlamadan) </li>
+</ul>
+
+<p> &nbsp; </p>
+
+<p> Bildirim tercihleri, bir talep için yanıtladığında veya personel yönetici arayüzünden bir talep gönderdiğinde, talep başına ayrı olarak ayarlandığını unutmayın. </p>
+
+<p> &nbsp; </p>
+
+<P align = "center"> <a href="#" onclick="Javascript:window.close()"> Pencereyi kapat </a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="61"> </a> <p class = "title"> Alınan yanıtları kaldır </p>
+
+<p> Bu işlev, Alıntılanan yanıtları, E-posta yönlendirme veya POP3 Alma işlevini kullanarak bir talep haline dönüştürülmeden önce tüm müşteri e-postalarından siler. </p>
+
+<p> Müşterilere gönderilen tüm e-postalar şu satırla başlayacak: </p>
+
+<p> ------ Bu satırın üstünde yanıt ver ------ </p>
+
+<p> Bu satırın altındaki herhangi bir metin, e-postanın talep yanıtına alındığında kaldırılacaktır. </p>
+
+<p>&nbsp;</p>
+
+<P align = "center"> <a href="#" onclick="Javascript:window.close()"> Pencereyi kapat </a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="66"> </a> <p class = "title"> Mesaj iste </p>
+
+<p> Etkinleştirilirse, e-posta borulaması veya POP3 getirme e-postaları hiçbir ileti içermiyorsa yok sayılır. </p>
+
+<p> Devre dışı bırakılırsa, ileti olmayan e-postalar bile talepler haline getirilir. </p>
+
+<p> &nbsp; </p>
+
+<P align = "center"> <a href="#" onclick="Javascript:window.close()"> Pencereyi kapat </a></p>
+
+<p> &nbsp; </p>
+<p> &nbsp; </p>
+<p> &nbsp; </p>
+<p> &nbsp; </p>
+
+<a name="64"> </a> <p class = "title"> Gömülü dosyalar </p>
+
+<p> E-posta boru hatları veya POP3 getirme üzerinden talepleri içe aktarırken HESK'in katıştırılmış e-posta dosyalarını (örneğin gömülü resimler) ek olarak kaydetmesini isterseniz etkinleştirin. </p>
+
+<p> İzin verilen en yüksek ekler sınırının üzerindeki dosyalar yoksayılacak. </p>
+
+<p> HESK ile dosya eklerinin gömülü dosyalara göre öncelik taşıdığını unutmayın. Örneğin, 2 dosya ekine izin verirseniz ve 1 dosya eki bulunan bir e-posta alırsanız
+    Ve 3 gömülü resim, HESK dosya eki ve ilk gömülü resim kaydeder, geri kalanlar yok sayılır. </p>
+
+<p> &nbsp; </p>
+
+<P align = "center"> <a href="#" onclick="Javascript:window.close()"> Pencereyi kapat </a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="57"> </a> <p class = "title"> Birden fazla e-posta </p>
+<p> Bir müşteri bir talep gönderirken E-posta alanına birkaç virüs girmeye çalışırsa (virgülle ayrılmışsa), HESK
+    Ilk e-postayı yalnızca varsayılan olarak kullanacak ve diğer e-postaları yoksayacaktır. </p>
+
+<p> Müşterilerin birden fazla e-posta girmesine izin vermek için kutuyu işaretleyerek bu özelliği etkinleştirin. </p>
+
+<p> &nbsp; </p>
+
+<P align = "center"> <a href="#" onclick="Javascript:window.close()"> Pencereyi kapat </a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="50"> </a> <p class = "title"> E-postayı onaylayın </p>
+<p> Seçilirse, &quot; Bir talep gönder &quot; Formu, &quot; E-postayı onayla &quot;
+    Alanı, müşteriyi e-posta adresini iki kez yazmaya zorlar. Bu yazım hatalarını önlemeye yardımcı olur
+    E-posta adreslerinde. </p>
+
+<p> &nbsp; </p>
+
+<P align = "center"> <a href="#" onclick="Javascript:window.close()"> Pencereyi kapat </a> </p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<a name="58"> </a> <p class = "title"> Yalnızca aç </p>
+<p> İşaretlenirse, &quot; talep kimlik numarasını &quot; E-posta (müşterilere talep takip kimlik numaralarını hatırlatmak için gönderilen e-posta)
+    Sadece açık talepleri listeler ve çözülen talepleri yoksayar. </p>
+
+<p> &nbsp; </p>
+
+<P align = "center"> <a href="#" onclick="Javascript:window.close()"> Pencereyi kapat </a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

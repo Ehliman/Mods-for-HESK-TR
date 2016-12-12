@@ -1,0 +1,17 @@
+Merhaba,
+
+Talebe yeni bir not eklendi "%%SUBJECT%%".
+
+Tarafından not eklendi %%NAME%%:
+
+%%MESSAGE%%
+
+
+Bu talebi buradan yönetebilirsiniz:
+%%TRACK_URL%%
+
+
+Regards,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

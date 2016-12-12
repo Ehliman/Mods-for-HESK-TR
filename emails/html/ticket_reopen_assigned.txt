@@ -1,0 +1,9 @@
+<p>Merhaba,</p>
+<p>Size atanan destek talebi yeniden açıldı.</p>
+<p>"%%SUBJECT%%" konulu talep %%NAME%% tarafından tekrar açıldı.</p>
+<p>Takip ID: %%TRACK_ID%%</p>
+<p>Talebi yönetmek için buraya tıklayınız:
+%%TRACK_URL%%</p>
+<p>Saygılarımızla,</p>
+%%SITE_TITLE%% <br>
+%%SITE_URL%%

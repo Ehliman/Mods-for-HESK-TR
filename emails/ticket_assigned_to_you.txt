@@ -1,0 +1,15 @@
+Merhaba,
+
+Size yeni bir destek talebi verildi. Talep detayları:
+
+Talep detayları: %%SUBJECT%%
+Talep takip kodu: %%TRACK_ID%%
+
+Bu talebi buradan yönetebilirsiniz:
+%%TRACK_URL%%
+
+
+Saygılarımızla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

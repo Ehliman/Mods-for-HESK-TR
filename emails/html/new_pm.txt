@@ -1,0 +1,15 @@
+<p>Merhaba,</p>
+<p>%%NAME%% adlı kişiden aşağıdaki konuda özel mesaj aldınız:</p>
+<p>%%SUBJECT%%</p>
+<p>Aşağıdaki linke tıklayarak yeni mesajınızı görüntüleyebilirsiniz:
+%%TRACK_URL%%</p>
+
+<p>Profilinizde ilgili ayarlardan her zaman yeni mesaj geldiğinde bildiri gelmemesini sağlayabilirsiniz.</p>
+
+<p>* BU MESAJI YANITLAMAYIN *<br />Bu otomatik mesaj destek sistemi tarafından oluşturulmuştur.</p> 
+<p>Bu e-posta mesajını cevaplamayınız, cevabınız bize ulaşmayacaktır!</p>
+<p>İletişim için linki kullanabilirsiniz.</p>
+
+<p>Saygılarımızla,</p>
+%%SITE_TITLE%% <br>
+%%SITE_URL%%

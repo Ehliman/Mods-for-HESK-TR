@@ -1,0 +1,18 @@
+Sayın %%NAME%%,
+
+Destek belgeniz "%%SUBJECT%%" gönderildi.
+
+24 - 48 saat içinde mümkün olan en kısa sürede tüm biletleri cevaplayacağız. Biletinizin daha fazla zaman alacağını düşünüyorsak, size bir e-posta göndererek sizi güncelleyeceğiz.
+
+Talep takip kodu: %%TRACK_ID%%
+
+Talebinizin durumunu burada görebilirsiniz:
+%%TRACK_URL%%
+
+Personelimiz biletinize cevap verdiğinde bir e-posta bildirimi alacaksınız.
+
+
+Saygılarımızla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

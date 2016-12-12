@@ -1,0 +1,11 @@
+<p>Sayın %%NAME%%,</p>
+<p>Yöneticilerimiz "%%SUBJECT%%" konulu talebinize bir cevap yazdı.</p>
+<p>Talebinizi buradan görebilirsiniz:</p>
+%%TRACK_URL%%
+<br><br>
+<p>* BU MESAJI YANITLAMAYIN * Bu otomatik mesaj destek sistemi tarafından oluşturulmuştur.<br />
+Bu e-posta mesajını cevaplamayınız, cevabınız bize ulaşmayacaktır, mesajımızın altındaki link ile açılacak sayfamızdan bizimle iletişim kurabilirsiniz!</p>
+<p>Saygılarımızla,</p>
+%%SITE_TITLE%%
+<br>
+%%SITE_URL%%

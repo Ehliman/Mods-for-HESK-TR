@@ -1,0 +1,14 @@
+<p>Sayın %%NAME%%,</p>
+<p>Email: %%EMAIL%%</p>
+<p>Yeni bir destek talebi kaydedildi. Talep detayları aşağıdadır :</p>
+<p>Takip ID: <strong>%%TRACK_ID%%</strong></p>
+<p><strong>Talep Konusu:</strong> %%SUBJECT%%</p>
+<p><strong>Lokasyon:</strong> %%CUSTOM1%%</p>
+<p><strong>Mesaj:</strong><br />%%MESSAGE%%</p>
+<p>&nbsp;</p>
+<p>Talebi buradan y&ouml;netebilirsiniz: %%TRACK_URL%%</p>
+<p><strong>* BU MESAJI YANITLAMAYIN *</strong><br />Bu otomatik mesaj destek sistemi tarafından oluşturulmuştur.</p>
+<p>Bu mesajı yanıtlamayınız, kullanıcınız cevabınızı alamayacaktır!</p>
+<p>E-Posta bilgilendirme ayarlarınızı değiştirmek i&ccedil;in destek masasına y&ouml;netici girişi yaparak "Profil" b&ouml;l&uuml;m&uuml;ne giriniz.</p>
+<p>Saygılarımızla,</p>
+<p>%%SITE_TITLE%% <br /> %%SITE_URL%%</p>

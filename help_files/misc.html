@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Interactive help for Hesk settings</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="help_style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- next: 63 -->
+
+<h3>Hesk ayarları için etkileşimli yardım</h3>
+
+<p>&nbsp;</p>
+
+<a name="18"></a><p class="title">Sunucu saati ofseti</p>
+<p>Sunucu zamanınız yerel saatinizden farklıysa, burada saat farkını ayarlayabilirsiniz. Örnekler:<br />
+    Sunucu saati: 12:30, yerel saat: 13:30, saatleri <b> 1 </b> ve dakika olarak <b> 0 </b> <br /> olarak ayarlayın
+    Sunucu saati: 12:30, yerel saat: 14:45, saatleri <b> 2 </b>, dakika: <b> 15 </b> <br /> olarak ayarlayın
+    Sunucu saati: 12:30, yerel saat: 09:30, saatleri <b> -3 </b> ve dakika olarak <b> 0 </b> <br /> olarak ayarlayın <br />
+    Sunucu saati: 12:30, yerel saat: 11:00, saatleri <b> -1 </b>, dakika ise <b> -30 </b> olarak ayarlayın</p>
+
+<a name="19"></a><p class="title">Yaz saati uygulaması</p>
+<p>Ülkeniz yaz saati uygulamasını kullanıyorsa AÇIK. Yaz saati uygulamasını devre dışı bırakmak için Kapalı olarak ayarlayın.</p>
+
+<p>Sunucunuz zaten yaz saati uygulamasını ayarladıysa bunu açın!</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Pencereyi kapat</a></p>
+
+<p>&nbsp;</p>
+
+<a name="20"></a><p class="title">Zaman formatı</p>
+<p>Bu, Hesk tarafından görüntülenen zaman damgaları için PHP tarih sözdizimi.</p>
+
+<p><span class="wrong">Sözdiziminde yalnızca bir boşluk kullanın (ayıran tarih ve saati), Hesk tarih ve saati iki satır kesmek için alanı kullanır!</span></p>
+
+<p>Tam sözdizimini kullanmak için, bkz. <a href="http://www.php.net/date" target="_blank">PHP tarih kılavuzu </a>. Kullanabileceğiniz birkaç örnek:</p>
+
+<table border="1" cellspacing="0" cellpadding="4">
+<tr>
+<td><b><i>Ayarlama</i></b></td>
+<td><b><i>Sonuç</i></b></td>
+</tr>
+<tr>
+<td><b>Y-m-d H:i:s</b></td>
+<td>2012-12-31 14:35:53</td>
+</tr>
+<tr>
+<td><b>d/m/Y H:i:s</b></td>
+<td>31/12/2012 14:35:53</td>
+</tr>
+<tr>
+<td><b>m-d-Y H:i:s</b></td>
+<td>12-31-2012 14:35:53</td>
+</tr>
+<tr>
+<td><b>j-M-Y H:i:s</b></td>
+<td>31-Dec-2012 14:35:53</td>
+</tr>
+<tr>
+<td><b>j-M-Y g:ia</b></td>
+<td>31-Dec-2012 2:35pm</td>
+</tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Pencereyi kapat</a></p>
+
+<p>&nbsp;</p>
+
+<a name="61"></a><p class="title">IP whois</p>
+<p>IP whois sorgusu için kullandığınız hizmetin URL'si.</p>
+<p><b>{IP}</b> etiketi müşteri IP adresiyle değiştirilecektir.</p>
+<p>Varsayılan: http://whois.domaintools.com/{IP}</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Pencereyi kapat</a></p>
+
+<p>&nbsp;</p>
+
+<a name="62"></a><p class="title">Bakım Modu</p>
+<p>Yardım masasını bakım moduna geçirin.</p>
+<p>Müşteri, yardım masası işlevlerini kullanamaz. Personel yardım masasına normal olarak erişebilir ve kullanabilir.v</p>
+<p><b>Not:</b> Bakım modu. <b> / install </b> klasörü var.</p>
+<p><b>Önemli:</b> POP3 getirme aktif olmayacak, ancak e-posta borulaması (müşteri e-postalarının kaybolmasını önlemek için) olacaktır.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Close window</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+
+<a name="21"></a><p class="title">Yönetim bağlantısı</p>
+<p>Seçilirse, web sitenizin alt kısmında Yönetici Paneli bağlantısı görüntülenir. <a href="../../../" target="_blank">Yardım masası dizini sayfası</a>.</p>
+
+<a name="48"></a><p class="title">Bildirim gönder</p>
+<p>İşaretlendiyse, <i> Bilet gönder </i> formu bir not görüntüler (en altta)
+    Müşterinin girilen tüm bilgileri tekrar kontrol etmesi ve
+    IP adresleri güvenlik nedeniyle günlüğe kaydediliyor.</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Pencereyi kapat</a></p>
+
+<p>&nbsp;</p>
+
+<a name="56"></a><p class="title">Çevrimiçi Kullanıcılar</p>
+<p>İşaretlenirse, HESK son X dakika içinde yardım masasının altındaki kullanıcıların listesini çevrimiçi gösterecektir (yalnızca personel arayüzü altında).</p>
+
+<a name="59"></a><p class="title">Güncellemeler</p>
+<p> İşaretlenirse, ayarlar sayfasını her açtığınızda HESK otomatik olarak güncellemeleri kontrol edecektir. </p>
+<p> Otomatik güncelleme için çalışması için sunucunun İnternet'e bağlı olması ve cURL veya allow_url_fopen'ın etkinleştirilmiş olması gerekir. </p>
+<p> Devre dışı bırakılmış veya gerekli işlevler eksikse, bir el kitabı & quot; Güncellemeleri kontrol et & quot; Bağlantılar görünecektir. </p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p align="center"><a href="#" onclick="Javascript:window.close()">Pencereyi kapat</a></p>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>

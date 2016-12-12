@@ -1,0 +1,11 @@
+<p>Merhaba,</p>
+<p>"%%SUBJECT%%" konulu talebe yeni bir not eklendi.</p>
+<p>%%NAME%% tarafından:</p>
+<p>%%MESSAGE%%</p>
+<p>Talebi buradan yönetebilirsiniz:
+%%TRACK_URL%%</p>
+<p>* BU MESAJI YANITLAMAYIN *<br />Bu otomatik mesaj destek sistemi tarafından oluşturulmuştur.</p> 
+<p>Bu e-posta mesajını cevaplamayınız, cevabınız bize ulaşmayacaktır!</p>
+<p>Saygılarımızla,</p>
+%%SITE_TITLE%% <br>
+%%SITE_URL%%

@@ -1,0 +1,14 @@
+﻿<p>Sayın %%NAME%%,</p>
+<p>Email: %%EMAIL%%</p>
+<p>"%%SUBJECT%%" Konulu destek talebiniz sistemimize kaydedildi.</p>
+<p>Tüm destek taleplerini imkanlarımız doğrultusunda 24 saat içerisinde cevaplamaya ve sorunları çözmeye gayret etmekteyiz..</p>
+<p>Talep Konusu: %%SUBJECT%%</p>
+<p>Talep Takip Numaranız ID: %%TRACK_ID%%</p>
+<p>Destek Talebinizin Durumunu Buradan Görebilirsiniz :
+<a href="%%TRACK_URL%%">%%TRACK_ID%%</a></p>
+<p>Talebinize yöneticilerimiz tarafından bir cevap verildiğinde e-posta ile haberdar edileceksiniz.</p>
+<p>* BU MESAJI YANITLAMAYIN *<br />Bu otomatik mesaj destek sistemi tarafından oluşturulmuştur.</p> 
+<p>Bu e-posta mesajını cevaplamayınız, cevabınız bize ulaşmayacaktır!</p>
+<p>Saygılarımızla,</p>
+%%SITE_TITLE%% <br>
+<a href="%%SITE_URL%%">HelpDesk</a>

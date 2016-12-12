@@ -1,0 +1,11 @@
+Sayın %%NAME%%,
+
+Bu e-posta, e-posta adresinizle birlikte gönderilen destek bilgisinin bir listesini içerir. Destek talep sayısı bulundu: %%NUM%%
+
+%%LIST_TICKETS%%
+
+
+Saygılarımla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

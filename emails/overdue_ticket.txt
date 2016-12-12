@@ -1,0 +1,17 @@
+Merhaba,
+
+Bir talep gecikti! Talep detayları:
+
+Talep Konusu: %%SUBJECT%%
+Talep takip numarası: %%TRACK_ID%%
+
+Bu talebi buradan yönetebilirsiniz:
+%%TRACK_URL%%
+
+
+Saygılarımızla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%
+
+%%MESSAGE%%

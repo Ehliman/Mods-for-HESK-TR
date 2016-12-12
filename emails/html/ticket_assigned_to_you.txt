@@ -1,0 +1,13 @@
+<p>Merhaba,</p>
+<p>Yeni bir destek talebi size atanmıştır. Talep detaylari:</p>
+<p>Talep Konusu: %%SUBJECT%%</p>
+<p>Talep ID: %%TRACK_ID%%</p>
+<p>Bu link ile talebi yönetebilirsiniz:
+%%TRACK_URL%%</p>
+
+<p>* BU MESAJI YANITLAMAYIN *<br />Bu otomatik mesaj destek sistemi tarafından oluşturulmuştur.</p> 
+<p>Bu e-posta mesajını cevaplamayınız, cevabınız bize ulaşmayacaktır!</p>
+
+<p>Saygılarımızla,</p>
+%%SITE_TITLE%% <br>
+%%SITE_URL%%

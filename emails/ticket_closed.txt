@@ -1,0 +1,14 @@
+Sayın %%NAME%%,
+
+Destek talebiniz "%%SUBJECT%%" kapatıldı / çözüldü durumuna güncellendi.
+
+Bilet takip numarası: %%TRACK_ID%%
+
+Talebinizin durumunu buradan görebilirsiniz:
+%%TRACK_URL%%
+
+
+Sağlıcakla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

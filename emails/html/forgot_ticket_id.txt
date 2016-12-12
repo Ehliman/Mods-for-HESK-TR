@@ -1,0 +1,11 @@
+<p>Sayın %%NAME%%,</p>
+<p>Bu mesaj e-posta adresinizle bir destek talebi açıldığı için gönderilmektedir.</p>
+<p>Talep Takip Numaranız: %%NUM%%</p>
+<p>%%LIST_TICKETS%%</p>
+
+<p>* BU MESAJI YANITLAMAYIN *<br />Bu otomatik mesaj destek sistemi tarafından oluşturulmuştur.</p>
+<p>Bu e-posta mesajını cevaplamayınız, cevabınız bize ulaşmayacaktır!</p>
+
+<p>Saygılarımızla,</p>
+%%SITE_TITLE%% <br>
+%%SITE_URL%%

@@ -1,0 +1,12 @@
+Sayın %%NAME%%,
+
+Çalışanlarımız sadece "%%SUBJECT%%" talebinize cevap verdi.
+
+Talepleri burada görebilirsiniz:
+%%TRACK_URL%%
+
+
+Saygılarımla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

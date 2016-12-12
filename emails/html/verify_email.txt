@@ -1,0 +1,6 @@
+<p>Sayın %%NAME%%,</p>
+<p>Talep teslim edilmeden önce E-Posta doğrulaması gerekiyor. E-Postanızı doğrulamak için aşağıdaki linki tıklayınız.</p>
+<p>%%VERIFYURL%%</p>
+<p>Saygılarımızla,</p>
+%%SITE_TITLE%% <br>
+%%SITE_URL%%

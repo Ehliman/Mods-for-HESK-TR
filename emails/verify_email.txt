@@ -1,0 +1,10 @@
+Sayın %%NAME%%,
+
+Biletinizi göndermeden önce e-postanızın doğrulanması gerekir. E-postanızı doğrulamak için lütfen aşağıdaki bağlantıyı tıklayın.
+
+%%VERIFYURL%%
+
+Saygılarımla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

@@ -1,0 +1,12 @@
+Merhaba,
+
+Bir müşteri sadece "%%SUBJECT%%" adlı bilet için yanıtladı.
+
+Bu bileti buradan yönetebilirsiniz:
+%%TRACK_URL%%
+
+
+Saygılarımızla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

@@ -1,0 +1,14 @@
+Merhaba,
+
+%% NAME %% alanından aşağıdaki konuyla yeni bir özel mesaj aldınız:
+
+%%SUBJECT%%
+
+Aşağıdaki mesajı tıklayarak yeni mesajınızı görüntüleyebilirsiniz.:
+%%TRACK_URL%%
+
+
+Saygılarımla,
+
+%%SITE_TITLE%%
+%%SITE_URL%%

@@ -1,0 +1,9 @@
+<p>Merhaba,</p>
+<p>Bir talep gecikti! Talep detayları:</p>
+<p>Talep Konusu: %%SUBJECT%%</p>
+<p>Talep Takip Numarası: %%TRACK_ID%%</p>
+<p>Bu talebi buradan yönetebilirsiniz:
+%%TRACK_URL%%</p>
+<p>Saygılarımızla,</p>
+%%SITE_TITLE%% <br>
+%%SITE_URL%%

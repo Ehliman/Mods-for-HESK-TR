@@ -1,0 +1,7 @@
+<h3>Yakında bir etkinlik olacak!</h3>
+<hr>
+<b>Konu:</b> %%TITLE%%
+<br><b>Yer:</b> %%LOCATION%%
+<br><b>Kategori:</b> %%CATEGORY%%
+<br><b>Ne zaman:</b> %%WHEN%%
+<br><b>Yorumlar:</b> %%COMMENTS%%

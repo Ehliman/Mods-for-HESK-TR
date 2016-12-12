@@ -1,0 +1,7 @@
+Yakında bir etkinlik olacak!
+----
+Başlık: %%TITLE%%
+Yer: %%LOCATION%%
+Kategori: %%CATEGORY%%
+Ne zaman: %%WHEN%%
+Yorumlar: %%COMMENTS%%
