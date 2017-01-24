@@ -2082,7 +2082,7 @@ $hesklang['hni2']='Bu yardım masası düzgün kurulmamış ve yapılandırılma
 $hesklang['hni3']="HESK'yi yüklemek için <a href='docs/> Belgelerdeki talimatları </a> takip edin";
 $hesklang['cf']='Önbellek klasörü';
 $hesklang['e_cdir']='Hesk, önbellek klasörü mevcut olmadıkça ve yazılabilir durumda olmadıkça, e-postaları ayrıştıramaz veya sonuçları önbelleğe alamaz.';
-$hesklang['step1']='Aşama 1';
+$hesklang['step1'] = 'Adım 1';
 $hesklang['step2']='Adım 2';
 $hesklang['dffs']='İndirme tamamlandığında, dosyayı sunucudan silin';
 $hesklang['fd']='Dosyayı sunucu dışına sildim';
