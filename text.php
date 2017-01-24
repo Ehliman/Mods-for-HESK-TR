@@ -97,6 +97,8 @@ $hesklang['canned_responses_dropdown_title'] ='Hazır Cevaplar ';
 $hesklang['helpdesk_settings'] ='Yardım Masası Ayarları ';
 $hesklang['click_to_toggle'] ='Geçiş yapmak için tıklayın';
 $hesklang['see_all_messages'] ='Tüm Mesajları Bkz';
+$hesklang['color_scheme'] = 'Renk şemaları';
+$hesklang['color_scheme_help'] = 'Arka planda kullanılacak renk şeması.';
 
 // ADDED OR MODIFIED IN Mods for HESK 2.6.0
 $hesklang['search_logs'] ='Arama Günlükleri';
@@ -458,8 +460,8 @@ $hesklang['activation_key'] ='Aktivasyon anahtarı';
 $hesklang['no_tickets_created'] ='Biletler oluşturulmadı';
 $hesklang['customer_email_verification'] ='Müşteri E-postası Doğrulaması';
 $hesklang['customer_email_verification_help'] ='Müşterilerin e-posta adreslerini e-postayla doğrulamasını isteyin. Bir kere
-    address has been verified, it does not need to be re-verified in the future. <br><br> <b>NOTE:</b> Enabling this will disable the
-    ability for the customer to provide multiple emails, as HESK will be unable to determine which email needs to be verified.';
+    address has been verified, it does not need to be re-verified in the future. <br><br> <b>NOTE:</b> Bunu etkinleştirdiğinizde,
+     HESK, hangi e-postanın doğrulanması gerektiğini belirleyemeyeceğinden, müşterinin birden fazla e-posta sunma yeteneği vardır.';
 $hesklang['require_customer_validate_email'] ='Müşterilerin e-postaları doğrulamasını isteyin';
 $hesklang['multi_eml_disabled'] ='Bu yardım masası, gerektiği gibi yapılandırıldığından, bu özellik devre dışı bırakıldı
     customers to verify their email address';
@@ -727,10 +729,7 @@ $hesklang['cat_removed']='Kategori silindi.';
 $hesklang['cat_removed_db']='Seçilen kategori başarıyla veritabanından silindi.';
 $hesklang['sure_remove_user']='Bu kullanıcıyı silmek istediğinizden emin misiniz?';
 $hesklang['manage_users']='Kullanıcı Yönetimi';
-$hesklang['users_intro']='Bu bölümde yönetim paneline girip talepleri cevaplamasını istediğiniz kullanıcılarınızla ilgili yetkilendirmeleri yapabilirsiniz. Yöneticiler tüm kategorilerde veya yetkilendirdiğiniz kategorilerdeki
-answer tickets. Administrators can view/edit tickets in any category and have access
-to all functions of the admin panel (manage users, manage categories, ...) while
-other users may only view and reply to tickets within their categories.';
+$hesklang['users_intro'] = 'Burada, yönetici paneline giriş yapabilen ve biletleri cevaplayabilecek kullanıcıları yönetebileceksiniz. Yöneticiler herhangi bir kategorideki biletleri görüntüleyebilir / düzenleyebilir ve diğer kullanıcıların kategorilerindeki biletleri yalnızca görüntüleyebilir ve cevaplayabilecekleri gibi yönetici panelinin tüm işlevlerine (kullanıcıları yönetme, kategorileri yönetme, ...) erişebilir.';
 $hesklang['yes']='Evet';
 $hesklang['no']='Hayır';
 $hesklang['edit']='Düzenle';
@@ -920,9 +919,8 @@ $hesklang['menu_kb']='Bilgi Bankası'; // Admin MENU item
 $hesklang['kb_text']='Bilgi Bankası'; // Item visible to customers
 $hesklang['viewkb']='Bilgi Bankası Kayıtlarını Gör';
 $hesklang['kb']='Bilgi Bankası Yönetimi';
-$hesklang['kb_intro']='Bilgi Bankası Bölümü ile sıkça karşılaştığınız soruların cevaplarını daha kolay bulabilmeniz için size yardımcı olacak bir bölümdür. Bilgi veya Yardım almak istediğiniz Bilgi Bankası Bölümü kategoris
-A comprehensive and well-written knowledgebase can drastically reduce the number of support tickets you receive and save a lot of your time. You can arrange articles into categories
-and sub categories.'; // Description in ADMIN panel
+$hesklang['kb_intro'] = 'Bilgi Bankası, müşterilerinize kendi kendine yardım kaynakları sağlayan sıkça sorulan sorulara (SSS) ve makalelerden yanıtların bir toplamıdır.
+Kapsamlı ve iyi yazılmış bir bilgi bankası, aldığınız destek biletleri sayısını büyük ölçüde azaltabilir ve çok fazla zaman kazandırabilir. Makaleleri kategorilere ve alt kategorilere göre düzenleyebilirsiniz.'; // Description in ADMIN panel
 $hesklang['kb_is']='Bilgi Bankası Bölümü, Sıkça Karşılaştığınız Soruların cevaplarını daha kolay bulabilmeniz için size yardımcı olacak bir bölümdür. Bilgi veya Yardım almak istediğiniz Bilgi Bankası Bölümü ve alt bölümlerini gezerek, yardım talebi açıp bekleyerek kaybedeceğiniz zamanı diğer işleriniz için kullanarak bazı sorunlarınızın çözümünü kolayca bulabilirsiniz.'; // Description for CUSTOMERS
 $hesklang['new_kb_art']='Yeni Bilgi Bankası İçeriği Ekle';
 $hesklang['kb_cat']='Kategori';
