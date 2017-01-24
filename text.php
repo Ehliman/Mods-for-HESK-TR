@@ -2079,7 +2079,7 @@ $hesklang['del_kba']='Bu makaleyi sil';
 $hesklang['del_kbaa']='Bu makaleyi kalıcı olarak sil';
 $hesklang['hni1']='HESK henüz kurulmadı mı?';
 $hesklang['hni2']='Bu yardım masası düzgün kurulmamış ve yapılandırılmamış gibi görünüyor';
-$hesklang['hni3']="HESK'yi yüklemek için <a href='docs/> Belgelerdeki talimatları </a> takip edin";
+$hesklang['hni3'] = "HESK'yi yüklemek için <a href='docs/> Belgelerdeki adımları </a> takip edin";
 $hesklang['cf']='Önbellek klasörü';
 $hesklang['e_cdir']='Hesk, önbellek klasörü mevcut olmadıkça ve yazılabilir durumda olmadıkça, e-postaları ayrıştıramaz veya sonuçları önbelleğe alamaz.';
 $hesklang['step1'] = 'Adım 1';
