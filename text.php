@@ -1673,18 +1673,18 @@ $hesklang['maxpost']='Muhtemelen bu sunucunun kabul ettiği miktardan daha fazla
 
 // --> Ticket history log
 // Unless otherwise specified, first %s will be replaced with date and second with name/username
-$hesklang['thist1']='<li class="smaller">%s üzerinde %s tarafından %s kategorisine taşındı</li>';
-$hesklang['thist2']='<li class="smaller">%s üzerinde %s tarafından %s atandı</li>';
-$hesklang['thist3']='<li class="smaller">%s üzerinde %s tarafından kapandı</li>';
-$hesklang['thist4']='<li class="smaller">%s üzerinde %s tarafından açıldı</li>';
-$hesklang['thist5']='<li class="smaller">%s üzerinde %s tarafından kilitlendi</li>';
-$hesklang['thist6']='<li class="smaller">%s üzerinde %s tarafından tekrar açıldı</li>';
-$hesklang['thist7']='<li class="smaller">%s üzerinde %s tarafından oluşturuldu</li>';
-$hesklang['thist8']='<li class="smaller">%s üzerinde %s tarafından öncelik %s\'e değiştirildi</li>';
-$hesklang['thist9']='<li class="smaller">%s üzerinde %s tarafından durum %s\'e değiştirildi</li>';
-$hesklang['thist10']='<li class="smaller">%s üzrinde otomatik olarak %s\'e atandı</li>';
-$hesklang['thist11']='<li class="smaller">%s üzerinde e-posta borulama (piping) onaylandı</li>';
-$hesklang['thist12']='<li class="smaller">%s üzerinde %s eklentisi %s tarafından silindi</li>';
+$hesklang['thist1'] = '<li class="smaller">%s tarihinde %s tarafından %s kategorisine taşındı</li>';
+$hesklang['thist2'] = '<li class="smaller">%s tarihinde %s kullanıcısına %s tarafından atandı</li>';
+$hesklang['thist3'] = '<li class="smaller">%s tarihinde %s tarafından kapandı</li>';
+$hesklang['thist4'] = '<li class="smaller">%s tarihinde %s tarafından açıldı</li>';
+$hesklang['thist5'] = '<li class="smaller">%s tarihinde %s tarafından kilitlendi</li>';
+$hesklang['thist6'] = '<li class="smaller">%s tarihinde %s tarafından tekrar açıldı</li>';
+$hesklang['thist7'] = '<li class="smaller">%s tarihinde %s tarafından oluşturuldu</li>';
+$hesklang['thist8'] = '<li class="smaller">%s tarihinde %s tarafından öncelik %s\'e değiştirildi</li>';
+$hesklang['thist9'] = '<li class="smaller">%s tarihinde %s tarafından durum %s\'e değiştirildi</li>';
+$hesklang['thist10'] = '<li class="smaller">%s tarihinde otomatik olarak %s\'e atandı</li>';
+$hesklang['thist11'] = '<li class="smaller">%s tarihinde e-posta borulama (piping) onaylandı</li>';
+$hesklang['thist12'] = '<li class="smaller">%s tarihinde %s eklentisi %s tarafından silindi</li>';
 $hesklang['thist13']='<li class="smaller">%s | Talep, %s ile by %s tarafından birleştirildi.</li>'; // %s = date, merged ticket ID, user making change
 $hesklang['thist14']='<li class="smaller">%s | talep üzerinde çalışma süresi %s olarak %s</li> tarafından değiştirildi'; // %s = date, new time worked, user making change
 $hesklang['thist15']='<li class="smaller">%s | Talep, %s tarafından gönderildi.</li>';
