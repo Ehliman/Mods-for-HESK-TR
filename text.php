@@ -560,7 +560,7 @@ $hesklang['quick_help_ticket']='İşte biletiniz hakkında bilgi. Varsa, bu bile
 
 // ADDED OR MODIFIED IN Mods For HESK pre-1.2
 $hesklang['search_the_knowledgebase'] ="Bilgi Bankası'nı arayın";
-$hesklang['view_ticket_nav']='Bilgiyi Gör';
+$hesklang['view_ticket_nav'] = 'Talepleri Gör';
 $hesklang['quick_help']='Hızlı Yardım';
 $hesklang['quick_help_submit_ticket']='Lütfen bilet göndermek için sağ taraftaki formu doldurunuz. Gerekli alanlar <span class = "important"> * </span> ile işaretlenmiştir. ';
 $hesklang['quick_help_view_ticket']='Lütfen biletinizi görüntülemek için sağdaki gerekli bilgileri doldurunuz. Bilet takip kimliğinizi unuttuysanız, "İzleme kimliği unuttum" düğmesine tıklayın. ';
