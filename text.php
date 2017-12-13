@@ -49,624 +49,6 @@ $hesklang['_COLLATE']='utf8_unicode_ci';
 // This is the email break line that will be used in email piping
 $hesklang['EMAIL_HR']='------ Bu çizginin üzerinde Cevap veriniz ------';
 
-// ADDED OR MODIFIED IN Mods for HESK 3.1.0
-$hesklang['stack_trace_header'] = 'Yığın izleme';
-$hesklang['ticket_message_contents_exist'] = 'Talep mesajı boş değil. Bu sayfadan ayrılmak istediğinizden emin misiniz?';
-$hesklang['resend_email_notification'] = 'E-posta Bildirimini Yeniden Gönder';
-$hesklang['email_notification_sent'] = 'E-posta bildirimi gönderildi!';
-$hesklang['email_notification_resend_failed'] = 'Bildirim e-postası gönderilirken hata oluştu.';
-$hesklang['edit_category'] = 'Kategoriyi Düzenle';
-$hesklang['custom_nav_menu_elements'] = 'Özel Gezinme Menüsü Öğeleri';
-$hesklang['create_new'] = 'Yeni oluştur';
-$hesklang['custom_nav_element_deleted'] = 'Özel Gezinme Öğesi Silindi!';
-$hesklang['no_custom_nav_elements_found'] = 'Özel gezinme menü öğesi bulunamadı';
-$hesklang['alert_success'] = 'Başarılı'; // Used for alert messages
-$hesklang['alert_error'] = 'Hata'; // Used for alert messages
-$hesklang['failed_to_load_custom_nav_elements'] = 'Özel gezinme öğeleri yüklenemedi!';
-$hesklang['custom_nav_element_deleted'] = 'Özel gezinme öğeleri silindi!';
-$hesklang['error_deleting_custom_nav_element'] = 'Özel gezinme öğesi silinirken hata oluştu!';
-$hesklang['error_sorting_custom_nav_elements'] = 'Özel gezinme öğelerini sıralama hatası!';
-$hesklang['custom_nav_element_created'] = 'Özel gezinme öğesi oluşturuldu!';
-$hesklang['custom_nav_element_saved'] = 'Özel gezinme öğesi kaydedildi!';
-$hesklang['homepage_block'] = 'Anasayfa - Blok';
-$hesklang['customer_navigation'] = 'Müşteri Gezintisi';
-$hesklang['staff_navigation'] = 'Personel Gezintisi';
-$hesklang['custom_nav_text'] = 'Metin';
-$hesklang['custom_nav_subtext'] = 'Alt metin';
-$hesklang['image_url_slash_font_icon'] = 'Resim URL / Yazı Tipi Simgesi';
-$hesklang['edit_custom_nav_element_title_case'] = 'Özel Yönlendirici Öğesini Düzenle';
-$hesklang['create_custom_nav_element_title_case'] = 'Özel Gezinme Öğesi Yarat';
-$hesklang['place'] = 'Yer';
-$hesklang['image_type'] = 'Resim Türü';
-$hesklang['image_url'] = 'Resim URL';
-$hesklang['image_url_help'] = 'Kullanmak istediğiniz resmin URL\'si. Müşteri / personel navigasyonu için önerilen boyut <b>16x16px</b> dir. Ana sayfa blokları için önerilen boyut <b>32x32px</b> dir.';
-$hesklang['font_icon'] = 'Yazı Tipi Simgesi';
-$hesklang['error_saving_custom_nav_element'] = 'Özel gezinme öğesi kaydedilirken hata oluştu!';
-$hesklang['place_help'] = 'Özel gezinme öğesinin konumu.';
-$hesklang['url_help'] = 'The URL where the user should be taken to. Both relative and absolute URLs are supported.';
-$hesklang['common_properties'] = 'Ortak Özellikler';
-$hesklang['customer_view'] = 'Müşteri Görünümü';
-$hesklang['admin_panel'] = 'Admin Paneli';
-$hesklang['manage_custom_nav_elements'] = 'Manage Custom Nav Elements';
-$hesklang['can_man_custom_nav'] = 'Can manage custom nav elements';
-$hesklang['category_background_color'] = 'Arka plan rengi';
-$hesklang['category_foreground_color'] = 'Ön plan rengi';
-$hesklang['category_background_color_help'] = 'Talep ekranında ve takvimde kullanılacak arka plan rengi için hex kod.';
-$hesklang['category_foreground_color_help'] = 'The hex code for the foreground color to be used on the view ticket and calendar screens. Leave blank for automatic color based on background.';
-$hesklang['category_display_border'] = 'Sınırı Göster';
-$hesklang['category_display_border_help'] = 'Kategori etrafında bir kenarlığın görüntülenip görüntülenmeyeceğine karar vermeyi seçin (ön plan rengini kullanır). <b>
-Ön plan rengi otomatik olarak ayarlanırsa, bu dikkate alınmaz.</b>';
-$hesklang['login_page'] = 'Giriş sayfası'; // Header on admin settings page
-$hesklang['login_background'] = 'Giriş Arkaplanı';
-$hesklang['solid_color'] = 'Koyu renk';
-$hesklang['login_background_color'] = 'Giriş Arka Plan Rengi'; // Input field information for screen-readers. Does not appear on-screen
-$hesklang['login_background_image'] = 'Giriş Arka Plan Resmi'; // Input field information for screen-readers. Does not appear on-screen
-$hesklang['login_box_header'] = 'Giriş Kutusu Başlığı';
-$hesklang['login_header_image'] = 'Giriş Üstbilgisi Görüntüsü'; // Input field information for screen-readers. Does not appear on-screen
-$hesklang['background_color'] = 'Arka plan rengi';
-$hesklang['background_color_help'] = 'Arka plan rengi.';
-$hesklang['text_color'] = 'Metin Rengi';
-$hesklang['text_color_help'] = 'Metin rengi';
-$hesklang['text_hover_color'] = 'Açık Renk: Metin';
-$hesklang['text_hover_color_help'] = 'Bir link üzerine gelindiğinde metin rengi';
-$hesklang['background_hover_color'] = 'Hover Color: Background';
-$hesklang['background_hover_color_help'] = 'The background color when hovering over a link';
-$hesklang['navbar'] = 'Navigation Bar';
-$hesklang['navbar_brand'] = 'Navigation Brand';
-$hesklang['sidebar'] = 'Kenar çubuğu';
-$hesklang['sidebar_header'] = 'Kenar Çubuğu Üstbilgisi';
-$hesklang['font_weight'] = 'Font Weight';
-$hesklang['font_weight_help'] = 'The font weight for text';
-$hesklang['normal'] = 'Normal';
-$hesklang['bold'] = 'Kalın';
-$hesklang['color_preset'] = 'Renk Önayarı';
-$hesklang['color_preset_help'] = 'Select a color preset for the backend, or define custom colors below.';
-$hesklang['select_a_preset'] = '-- Select a Preset --';
-$hesklang['preset_blue'] = 'Mavi';
-$hesklang['preset_blue_light'] = 'Mavi (açık)';
-$hesklang['preset_yellow'] = 'Sarı';
-$hesklang['preset_yellow_light'] = 'Sarı (açık)';
-$hesklang['preset_green'] = 'Yeşil';
-$hesklang['preset_green_light'] = 'Yeşil (açık)';
-$hesklang['preset_purple'] = 'Mor';
-$hesklang['preset_purple_light'] = 'Mor (açık)';
-$hesklang['preset_red'] = 'Kırmızı';
-$hesklang['preset_red_light'] = 'Kırmızı (açık)';
-$hesklang['preset_black'] = 'Siyah';
-$hesklang['preset_black_light'] = 'Siyah (açık)';
-$hesklang['url_rewrite'] = 'URL Rewrite';
-$hesklang['url_rewrite_help'] = 'Remove the need to include /index.php in API URLs (i.e. /api/index.php/v1/... -> /api/v1/...). Rename htaccess.txt to .htaccess in the /api folder to use.';
-$hesklang['url_rewrite_saved'] = 'URL rewrite ayarları kaydedildi!';
-$hesklang['api_settings_saved'] = 'API ayarları kaydedildi!';
-$hesklang['an_error_occurred'] = 'Bir hata oluştu. Daha fazla bilgi için günlükleri kontrol edin.';
-
-// ADDED OR MODIFIED IN Mods for HESK 3.0.0
-$hesklang['you_have_x_messages'] ='%s yeni%s var'; //%s: yeni mesajların, "mesaj" veya "mesaj", sayısı # bağlı
-$hesklang['message_lower_case'] ='mesaj';
-$hesklang['messages_lower_case'] ='mesajlar ';
-$hesklang['deleted_user_title_case'] ='Silinmiş kullanıcı';
-$hesklang['x_system_warnings'] ='%s Sistem%s '; //%s: uyarıların sayısı, $ s: "Uyarı" ya da # bağlı "Uyarılar",
-$hesklang['warnings_title_case'] ='Uyarılar ';
-$hesklang['articles_in_category_x'] ='Kategori%s eşyalar'; //%s: kategori adı
-$hesklang['private_category_star'] ='* Ile gösterilen özel kategoriler';
-$hesklang['private_article_star'] ='* Ile gösterilen özel eşyalar';
-$hesklang['ticket_details'] ='Talep Bilgileri ';
-$hesklang['more'] ='Daha';
-$hesklang['click_to_edit'] ='Düzenlemek için tıkla';
-$hesklang['no_device_information'] ='Hiçbir aygıt bilgileri ';
-$hesklang['message_colon'] ='Mesaj:';
-$hesklang['original_message'] ='Orijinal mesaj';
-$hesklang['reply_by_customer'] ='Müşteri tarafından Cevap';
-$hesklang['reply_by_staff'] ='Personel tarafından Cevap';
-$hesklang['timeline_today'] ='Bugün';
-$hesklang['no_notes_for_this_ticket'] = 'Bu talep için not yok';
-$hesklang['private_message_header'] ='Özel mesaj';
-$hesklang['date_colon'] ='Tarih: ';
-$hesklang['api_information'] ='API bilgi ';
-$hesklang['api_version'] ='API sürümü ';
-$hesklang['external_api'] ='Harici API ';
-$hesklang['external_api_help'] ='Etkinleştirin veya harici DİNLENME API devre dışı bırakın';
-$hesklang['disabled_title_case'] ='Engelli';
-$hesklang['enabled_title_case'] ='Etkin';
-$hesklang['api_settings'] ='API Ayarları ';
-$hesklang['user_security'] ='Kullanıcı Güvenliği ';
-$hesklang['api_documentation'] ='API Belgeleri ';
-$hesklang['changes_saved'] ='Değişiklikler kaydedildi!';
-$hesklang['save_failed_check_logs'] ='Tasarruf değişiklikler başarısız oldu. Daha fazla bilgi için günlükleri kontrol edin. ';
-$hesklang['number_of_tokens'] ='Kredi sayısı';
-$hesklang['generate_new_token'] ='Yeni Simgesi oluşturmak';
-$hesklang['revoke_all_tokens'] ='Tüm Simgeleri iptal';
-$hesklang['generated_token_colon'] ='Jetonu Oluşturulan: ';
-$hesklang['record_this_token_warning'] ='Bu görebilmek mümkün olacak sadece zaman olduğu gibi, bu belirteç not edin! ';
-$hesklang['all_tokens_revoked'] ='Bu kullanıcı için tüm belirteçleri iptal edilmiştir';
-$hesklang['staff_login_title'] ='Personel Girişi ';
-$hesklang['manage_custom_fields'] ='Özel Alanları yönet';
-$hesklang['value'] ='Değeri ';
-$hesklang['readonly'] ='Sadece oku';
-$hesklang['copy_ticket'] = 'Talebi Kopyala';
-$hesklang['canned_responses_dropdown_title'] ='Hazır Cevaplar ';
-$hesklang['helpdesk_settings'] ='Yardım Masası Ayarları ';
-$hesklang['click_to_toggle'] ='Geçiş yapmak için tıklayın';
-$hesklang['see_all_messages'] ='Tüm Mesajları Bkz';
-$hesklang['color_scheme'] = 'Renk şemaları';
-$hesklang['color_scheme_help'] = 'Arka planda kullanılacak renk şeması.';
-
-// ADDED OR MODIFIED IN Mods for HESK 2.6.0
-$hesklang['search_logs'] ='Arama Günlükleri';
-$hesklang['date_logged'] ='Tarih kaydedildi';
-$hesklang['from_date'] ='Tarihinden itibaren';
-$hesklang['to_date'] ='tarihine kadar';
-$hesklang['severity'] ='Önem Derecesi';
-$hesklang['debug'] ='Hata ayıklama';
-$hesklang['warning_title_case'] ='Uyarı';
-$hesklang['logs'] ='Günlükler';
-$hesklang['view_message_log'] ='Mesaj günlüğünü görüntüle';
-$hesklang['can_view_logs'] ='Mesaj günlüklerini görüntüleyebilirsiniz.';
-$hesklang['attachment_viewer_message'] ="'Dosya Ekle' düğmesini tıklatın.";
-$hesklang['attachment_invalid_type_message'] ='Üzgünüm, yüklediğiniz dosya türü desteklenmiyor.';
-$hesklang['attachment_upload_error'] ='Yüklemeye çalışırken bir hata oluştu. Lütfen daha sonra yeniden deneyin.';
-$hesklang['attachment_too_large'] ='Bu ek izin verilen dosya boyutundan büyüktür.';
-$hesklang['attachment_cancel'] ='İptal Et';
-$hesklang['attachment_confirm_cancel'] ='Bu yüklemeyi iptal etmek istediğinizden emin misiniz?';
-$hesklang['attachment_remove'] ='Eki kaldır';
-$hesklang['due_date'] ='Bitiş Tarihi';
-$hesklang['category_color'] ='Renk';
-$hesklang['category_color_help'] ='rengin hex kodunu görünümü talep ekran ve takvim üzerinde kullanılmak üzere. Renksiz için boş bırakın';
-$hesklang['category_updated'] =' <i>%s</i> değişiklikler kaydedildi.';
-$hesklang['new_event'] ='Yeni Etkinlik';
-$hesklang['create_event'] ='Etlinlik Oluştur';
-$hesklang['event_title'] ='Başlık';
-$hesklang['event_title_tooltip'] ='Etkinlik başlığı';
-$hesklang['event_location'] ='Konum';
-$hesklang['event_location_tooltip'] ='Etkinlik konumu';
-$hesklang['event_category_tooltip'] ='Etkinlik kategorisi';
-$hesklang['event_start'] ='Başlat';
-$hesklang['event_start_tooltip'] ='Etkinlik için başlangıç tarihi (ve zaman)';
-$hesklang['event_start_date'] ='Başlangıç Tarihi';
-$hesklang['event_start_time'] ='Başlangıç Saati';
-$hesklang['event_all_day'] ='Bütün gün';
-$hesklang['event_end'] ='Bitiş';
-$hesklang['event_end_tooltip'] ='Etkinlik için bitiş tarihi ve zamanı.';
-$hesklang['event_end_date'] ='Bitiş tarihi';
-$hesklang['event_end_time'] ='Bitiş saati';
-$hesklang['event_reminder'] ='Hatırlatma';
-$hesklang['event_reminder_tooltip'] ='Bu etkinlik için bir hatırlatma e-posta mesajı alma. Sadece bu etkinlik ile ilgili hatırlatma e-postası alacaksınız. ';
-$hesklang['event_min_before_event'] ='etkinlikten dakika önce';
-$hesklang['event_hours_before_event'] ='etkinlikten saat önce';
-$hesklang['event_days_before_event'] ='etkinlikten günler önce';
-$hesklang['event_weeks_before_event'] ='etkinlikten haftalar önce';
-$hesklang['event_comments'] ='Yorumlar';
-$hesklang['event_comments_tooltip'] ='Bu etkinlik hakkında ek açıklamalar.';
-$hesklang['event_create_ticket'] ='Talep Oluştur';
-$hesklang['to_title_case'] ='Kime';
-$hesklang['clear_for_no_due_date'] ='Son teslim tarihi olmadığında temizle';
-$hesklang['ticket_due_date_updated'] ='Talebin son tarihi başarıyla güncellendi';
-$hesklang['error_updating_ticket_due_date'] ='Talep bitiş tarihini güncellemeye çalışırken bir hata oluştu';
-$hesklang['error_loading_events'] ='Etkinlikleri yüklemeye çalışırken bir hata oluştu';
-$hesklang['error_deleting_event'] ='Etkinliği silmeye çalışırken bir hata oluştu';
-$hesklang['event_deleted'] ='Etkinlik başarıyla silindi';
-$hesklang['event_created'] ='Etkinlik başarıyla oluşturuldu';
-$hesklang['error_creating_event'] ='Etkinliği oluşturmaya çalışırken bir hata oluştu';
-$hesklang['event_updated'] ='Etkinlik başarıyla güncellendi';
-$hesklang['error_updating_event'] ='Etkinliği güncellemeye çalışırken bir hata oluştu';
-$hesklang['calendar_title_case'] ='Takvim';
-$hesklang['calendar_categories'] ='Kategoriler';
-$hesklang['can_man_calendar'] ='Takvim etkinliklerini yönetebilir';
-$hesklang['calendar_reminder'] ='Gelecek Etkinlik: %%TITLE%%';
-$hesklang['overdue_ticket'] ='[%%TRACKID%%] Talep Geçme!';
-$hesklang['notify_overdue_unassigned'] ='Bu talep geçersiz bana verilmiyor';
-$hesklang['calendar_settings'] ='Takvim ayarları';
-$hesklang['enable_calendar'] ='Takvimi etkinleştir';
-$hesklang['enable_calendar_help'] ='Takvimi etkinleştirmek / devre dışı bırakmak için ayarlama. Takvim herkese, yalnızca personele gösterilebilir veya takvimi tamamen devre dışı bırakabilirsiniz. ';
-$hesklang['yes_enable_calendar'] ='<b> EVET </b>, takvimi etkinleştir';
-$hesklang['yes_enable_calendar_staff_only'] ='<b> EVET </b>, takvimi etkinleştir, ancak yalnızca personel için';
-$hesklang['no_disable_calendar'] ='<b> HAYIR </b>, takvimi devre dışı bırak';
-$hesklang['first_day_of_week'] ='Haftanın ilk günü';
-$hesklang['first_day_of_week_help'] ='Bu ayar haftanın hangi gününün haftada ilk kez gösterileceğine karar verir.';
-$hesklang['calendar_disabled'] ='Takvim devre dışı';
-$hesklang['default_view'] ='Varsayılan takvim görünümü';
-$hesklang['default_view_help'] ='Takvimi görüntülediğinizde varsayılan olarak müşterilere ve personele hangi görünümün gösterileceğine karar verin. Personel bu ayarı kendi profiliyle değiştirebilir. ';
-$hesklang['week'] ='Hafta';
-$hesklang['calendar_day'] ='Gün';
-$hesklang['calendar_index'] ='Yaklaşan etkinlikleri göster';
-$hesklang['usage'] ='Kullanım';
-$hesklang['tickets_and_events'] ='Talepler ve olaylar';
-$hesklang['tickets_only'] ='Yalnızca talepler';
-$hesklang['events_only'] ='Sadece olaylar';
-$hesklang['events'] ='Etkinlikler';
-$hesklang['add_files'] ='<i class="fa fa-plus"></i> Dosya Ekle';
-$hesklang['select_all_title_case'] ='Tümünü Seç';
-$hesklang['deselect_all_title_case'] ='Tüm Seçimleri Kaldır';
-$hesklang['event'] ='Event';
-$hesklang['overdue_ticket_legend'] ='Vadesi geçmiş talepler';
-$hesklang['attachment_max_exceeded'] ='İzin verilen maksimum dosya sayısını yüklediğiniz için bu dosya yüklenmeyecek.';
-
-// ADDED OR MODIFIED IN Mods for HESK 2.5.2
-$hesklang['manage_statuses'] ='Durumları yönet';
-$hesklang['manage_service_messages'] ='Servis mesajlarını yönet';
-$hesklang['manage_banned_ips'] ='Yasaklı IPleri yönet';
-$hesklang['manage_banned_emails'] ='Yasaklı e-postalar yönet';
-$hesklang['manage_email_templates'] ='E-posta şablonlarını yönet';
-$hesklang['linked_tickets'] ='Bağlantılı talepler';
-$hesklang['add_ticket'] ='Talep Ekle';
-$hesklang['cannot_link_ticket_to_itself'] ='Bir talep kendine bağlanamaz!';
-$hesklang['linked_ticket_does_not_exist'] ='<strong>%s </strong> geçerli bir İzleme Kimliği değil!'; //%s: çocuk takip kimliği
-$hesklang['is_already_linked'] ='<strong>%s </strong> zaten bu biletle bağlantılıdır.'; //%s: çocuk takip kimliği
-$hesklang['link_added'] ='<strong>%s </strong> ile bu bileti başarıyla bağladı.'; //%s: çocuk takip kimliği
-$hesklang['ticket_no_longer_linked'] ='Talep artık bağlı değil.';
-$hesklang['unlink'] ='Bağlantı kaldır';
-
-// ADDED OR MODIFIED IN Mods for HESK 2.5.0
-$hesklang['ticket_message_no_attachments'] ='Talep / Cevap mesajı, ancak ekler e-postaya dahil edilmeyecektir';
-$hesklang['click_for_device_information'] ='Cihaz bilgileri için tıklayınız';
-$hesklang['device_information'] ='Cihaz bilgisi';
-$hesklang['operating_system'] ='İşletim sistemi';
-$hesklang['browser'] ='Tarayıcı';
-$hesklang['screen_resolution'] ='Ekran çözünürlüğü';
-$hesklang['display_user_agent_information'] ='Kullanıcı aracısını göster';
-$hesklang['display_user_agent_information_help'] ='Etkinleştirildiğinde, personel işletim sistemi, tarayıcı,
-    and screen resolution of the device used to create the ticket.';
-$hesklang['value_colon'] ='Değer:';
-$hesklang['hidden_custom_field'] ='Gizli metin alanı';
-$hesklang['hidden_custom_field_help'] ='Bu girdi, bir metin alanı ile aynı; Ancak bu değer değiştirilemez ve kullanıcı tarafından görülemez. ';
-$hesklang['readonly_custom_field'] ='Salt okunur metin alanı';
-$hesklang['readonly_custom_field_help'] ='Bu girdi, bir metin alanı ile aynı; Ancak bu değer değiştirilemez, ancak kullanıcı tarafından görülecektir. ';
-$hesklang['navbar_title_url'] ="Navbar Başlık URL'si";
-$hesklang['navbar_title_url_help'] ="Bir müşterinin (veya personelin) ekranın sol üst köşesindeki yardım masası başlığını tıklattığında kullanmak istediğiniz URL'yi girin. URL, http:// veya https:// ile başlamalıdır. ";
-$hesklang['this_field_is_required'] ='Bu alan gereklidir';
-$hesklang['select_at_least_one_value'] ='Lütfen en az bir değer seçin';
-
-// ADDED OR MODIFIED IN Mods for HESK 2.4.0
-$hesklang['sort_by_user_defined_order'] ='Kullanıcı tarafından tanımlanan siparişe göre sırala';
-$hesklang['sort_alphabetically'] ='Alfabetik olarak sırala';
-$hesklang['category_sort'] ='Kategori Sıralama';
-$hesklang['category_sort_help'] ='Kategorileri yönetme sayfasında ve tüm açılır menülerde gösterilen kategorilerin kullanıcı tanımlı siparişine (varsayılan) göre sıralanıp dizilmediğini belirler veya
-sorted alphabetically.';
-$hesklang['quick_help_sections'] ='Hızlı Yardım Bölümleri';
-$hesklang['quick_help_sections_help'] ='Sol taraftaki "Hızlı Yardım" bölümlerini göstermek için onay kutusunu işaretleyin veya göstermemek için işaretini kaldırın.';
-$hesklang['create_ticket'] ='Talep oluştur (müşteriler)';
-$hesklang['view_ticket_form'] ='Talep formunu görüntüle';
-$hesklang['knowledgebase'] ='Bilgi Bankası Bölümü';
-$hesklang['staff_create_ticket'] ='Talep (personel) oluştur';
-$hesklang['allow_rich_text_for_tickets'] ='Talepler için zengin metinlere izin ver';
-$hesklang['allow_rich_text_for_tickets_help'] ='Personel ve müşterilerin, bilet mesajları / cevapları yazarken zengin metin biçimlendirmesini kullanmasına izin verin.';
-$hesklang['click_to_edit_name'] ='Adı düzenlemek için tıklayın';
-$hesklang['new_status'] ='Yeni Durum';
-$hesklang['create_new_status_title'] ='Yeni Durum Oluştur';
-$hesklang['status_name_title'] ='Durum Adı';
-$hesklang['status_name_title_help'] ='Bilgiyi izlerken, yüklediğiniz her dil için görünmesi gereken durumun adı.';
-$hesklang['properties'] ='Özellikleri';
-$hesklang['closable'] ='Kapatılabilir'; // $ hesklang ['closable_question'] ile aynı, ancak noktalama işareti olmadan
-$hesklang['new_status_created'] ='Yeni durum başarıyla oluşturuldu';
-$hesklang['editing_status_x'] ='Düzenleme durumu <span style = "color:%s; font-weight: bold">%s </span>'; // 1.%s: metin rengi, 2.%s: durum adı
-$hesklang['status_not_in_database'] ='Bu dile ait durum metni veritabanında bulunamadı, bu nedenle size önerilen bir çeviri dolduruldu.
- Please click "Save Changes" to save this translation to the database and to remove this warning.';
-$hesklang['ticket_status_updated'] ='Talep durumu başarıyla güncellendi!';
-$hesklang['ticket_status_deleted'] ='Talep durumu silindi!';
-$hesklang['confirm_delete_status_question'] ='Durumu silinsin mi?';
-$hesklang['confirm_delete_status'] ='Bu durumu silmek istediğinizden emin misiniz? Bu geri alınamaz!';
-$hesklang['status_sort_updated'] ='Talep durumu sıralama güncellendi!';
-$hesklang['status_sort'] ='Durum Sıralama';
-$hesklang['status_sort_help'] ='Durumları yönet sayfasında ve tüm açılır menülerde gösterilen durumların kullanıcı tanımlı sırayla (varsayılan) sıralanmasını veya alfabetik olarak sıralanmasını belirler.';
-$hesklang['cannot_delete_status_tickets'] ='Bu durum, bu duruma ayarlanmış biletler olduğu için silinemiyor.';
-$hesklang['default_statuses_updated'] ='Varsayılan durumlar güncellendi!';
-$hesklang['download_count'] ='İndirme Sayısı';
-$hesklang['kb_attach_dir'] ='Bilgi bankası ekleri klasörü';
-$hesklang['kb_attach_dir_help'] ="Bilgi bankası eklerinin depolandığı klasörün adı. <br> <br> Klasör ana HESK klasöründe bulunmalı ve PHP tarafından yazılabilir olmalıdır. Çoğu sistemde adı CaSe SeNSiTiVe'dir.
-     <br> <br> İzin verilen karakterler (diğer kaldırılacak): a-z A-Z 0-9 _ -";
-$hesklang['ticket_attach_dir'] ='Bilet ekleri klasörü';
-$hesklang['cannot_edit_status_demo'] ='Demo modundayken durumları düzenleyemezsiniz!';
-
-// ADDED OR MODIFIED IN Mods for HESK 2.3.0
-$hesklang['sm_icon'] ='Simge';
-$hesklang['sm_icon_type'] ='Simge Türü';
-$hesklang['sm_no_icon'] ='Simge Yok';
-$hesklang['sm_search_icon'] ='Arama Simgesi';
-$hesklang['sm_iconpicker_footer_label'] ='{0} - {1} of {2}'; // {0}: sayfanın alt sınırı, {1}: sayfanın üst sınırı, {2}: toplam simge sayısı
-$hesklang['mods_for_hesk_acronym'] ='MFH'; // THIS SHOULD NOT BE TRANSLATED
-$hesklang['added_in_mods_for_hesk'] ='HESK Modlarına Eklendi';
-$hesklang['statuses_intro'] ='Buradan, Talep durumlarını ekleyebilir, kaldırabilir ve değiştirebilir, ayrıca belirli eylemlerin varsayılan durumunu değiştirebilirsiniz.';
-$hesklang['statuses_saved'] ='Talep durumları güncellendi!';
-$hesklang['email_template_not_saved'] ='Bir hata nedeniyle <b>%s </b> e-posta şablonu kaydedilmedi. Hata mesajı olup olmadığını görmek için hata ayıklama modunu etkinleştirin ve dosyanızın CHMOD 0666 olduğundan emin olun'; //%s: Şablon dosyası adı
-$hesklang['language_key'] ='Dil Anahtarı';
-$hesklang['language_key_description'] ="Bu, görüntülemek istediğiniz metni içeren \' anahtar \' dil dosyasıdır";
-$hesklang['can_man_ticket_statuses'] ='Talep durumlarını yönetebilir';
-$hesklang['key_required'] ='Anahtarlar tüm durumlar için gereklidir';
-$hesklang['x_merged'] ='(+%s birleşti)'; //%s birleştirilmiş bilet sayısı
-$hesklang['merged_tickets'] ='Birleştirilmiş biletler:';
-$hesklang['show_number_merged'] ='Birleştirilmiş bilet sayısını göster';
-$hesklang['show_number_merged_descr'] ='İzleme Kimliğinin yanında birleştirilmiş bilet sayısını göster';
-$hesklang['show_number_merged_help'] ='Etkinleştirilirse, kullanıcı bilet arama ekranında hangi biletleri diğerine birleştirildiğini görebilir.';
-$hesklang['latest_top_on_home'] ='Ana sayfadaki en son / en iyi makaleler';
-$hesklang['latest_top_on_home_help'] ="Ana sayfada en üstteki ve en son bilgi bankası makalelerini görüntülemek için EVET'i seçin.
-     Aksi takdirde ana sayfada bir bilgi tabanı bağlantısı görüntülenir.";
-$hesklang['location_unavailable'] ='Yer kullanılamıyor. Daha fazla bilgi için tıklayınız.';
-$hesklang['click_for_map'] ='nın konumu';
-$hesklang['request_user_location'] ='Yer İste';
-$hesklang['request_user_location_help'] ="Etkinleştirildiğinde, yardım masası, müşterinin bulunduğu yeri isteyerek personelin
-  Müşteriyi bilet oluştururken bulundukları yerin haritasına bakın.";
-$hesklang['users_location'] ="'nın Konumu";
-$hesklang['location_unavailable_0'] ="Yer izleme özelliği etkinleştirilmeden önce bilet oluşturulduğundan ' konumu kullanılamıyor. ";
-$hesklang['location_unavailable_1'] ="Kullanıcı paylaşmayı reddettiğinden konumunu mevcut değil.";
-$hesklang['location_unavailable_2'] ='Yardım masası kullanıcının konumunu belirleyemediği için bulunduğu yer mevcut değil.';
-$hesklang['location_unavailable_3'] ="Yardım masası kullanıcının konumunu belirleyemediğinden kullanıcının konumu kullanılamıyor. Makul bir süre.";
-$hesklang['location_unavailable_4'] ='Kullanıcının yerini almaya çalışırken bilinmeyen bir hata oluştu.';
-$hesklang['location_unavailable_5'] ="Kullanıcının tarayıcısı minimuma ulaşmadığından kullanıcının konumu kullanılamıyor. Bilet gönderildiğinde yerlerini takip etme şartları.";
-$hesklang['save_location'] ='Konumu kaydet';
-$hesklang['close_modal_without_saving'] ='Kaydetmeden Kapat';
-$hesklang['ticket_location_updated'] ='Bilet konumu güncellendi!';
-$hesklang['location_colon'] ='Yer:';
-$hesklang['your_current_location'] ='Konumunuz';
-$hesklang['requesting_location_ellipsis'] ='Konum istiyor ...';
-$hesklang['unable_to_determine_location'] ='Bulunduğunuz yeri belirleyemedi veya paylaşmayı reddettiniz.';
-$hesklang['save_to_see_updated_address'] ='Güncellenmiş adresi görmek için yeni konumu kaydedin';
-$hesklang['manager'] ='Yönetici';
-$hesklang['manager_updated'] ='Kategori yöneticisi güncellendi.';
-$hesklang['can_set_manager'] ='Kategorideki yöneticileri ayarlayabilir';
-$hesklang['no_manager'] ='Yönetici yok';
-$hesklang['manage_permission_templates'] ='İzin Şablonlarını Yönet';
-$hesklang['manage_permission_templates_help'] ='Buradan izin şablonları oluşturabilir ve düzenleyebilirsiniz. Bu şablonlar bir kullanıcı oluştururken / düzenlerken görünecektir.
-Please note that if you change the permission template\'s settings, it will NOT change the permissions of any users that are set to this permission template.';
-$hesklang['number_of_users'] ='Kullanıcı sayısı';
-$hesklang['actions'] ='Eylemler';
-$hesklang['view_permissions_for_this_template'] ='Bu şablon için izinleri görüntüle / değiştir';
-$hesklang['permission'] ='İzin';
-$hesklang['permissions_for_template'] ='Şablon için izinler <code>%s </code>'; //%s şablon adı
-$hesklang['template_has_admin_privileges'] ='İzin şablonunun yönetici ayrıcalıkları var. Yönetici Olmayacak Olarak Ayarlamak İçin Tıklayın ';
-$hesklang['template_has_no_admin_privileges'] ='İzin şablonunun yönetici ayrıcalıkları yok. Yönetici olarak ayarlamak için tıklayın';
-$hesklang['staff_cannot_be_admin'] ='Personel izni grubuna yönetici erişimi yok ve bir yönetici olarak ayarlanamaz';
-$hesklang['admin_cannot_be_staff'] ='Yönetici izin grubuna yönetici erişimi var ve yönetici olamaz olarak ayarlanamaz';
-$hesklang['template_is_admin_cannot_change'] ='İzin grubunun şu an için yönetici ayrıcalıkları var; dolayısıyla burada belirli izinler ayarlayamazsınız.';
-$hesklang['permission_template_updated'] ='İzin şablonu güncellendi!';
-$hesklang['create_new_template'] ='Yeni izin şablonu oluştur';
-$hesklang['create_new_template_title'] ='Yeni İzin Şablonu Oluşturun'; // create_new_template ile aynı, ancak Başlık Örneği'nde
-$hesklang['template_name'] ='Şablon adı';
-$hesklang['template_name_required'] ='Şablon adı gerekiyor.';
-$hesklang['you_must_select_a_category'] ='En az bir kategori seçmelisiniz.';
-$hesklang['you_must_select_a_feature'] ='En az bir özellik seçmelisiniz.';
-$hesklang['permission_template_error'] ='İzin şablonu aşağıdaki hatalar yüzünden tamamlanamadı:%s'; //%s: hata listesi
-$hesklang['template_created'] ='İzin şablonu başarıyla oluşturuldu!';
-$hesklang['cannot_delete_admin_or_staff'] ='<b> Yönetici </b> ve <b> Personel </b> izin grupları silinemez!';
-$hesklang['no_templates_were_deleted'] ='Hiçbir şablon silindi!';
-$hesklang['permission_template_deleted'] ='İzin şablonu silindi!';
-$hesklang['permission_template_now_admin'] ='İzin şablonu artık bir yönetici şablonu olarak tasarlandı';
-$hesklang['permission_template_no_longer_admin'] ='İzin şablonu artık bir yönetici şablonu olarak atanmadı';
-$hesklang['cannot_change_admin_staff'] ='<b> Yönetici </b> ve <b> Personel </b> şablonları için yönetici / yönetici olmayan durumu değiştiremezsiniz!';
-$hesklang['permission_tpl_man'] ='İzin şablonlarını yönet'; // Menü bağlantısı
-$hesklang['permission_templates'] ='İzin Şablonları';
-$hesklang['can_man_permission_tpl'] ='İzin şablonlarını yönetebilir miyim';
-$hesklang['permission_template_colon'] ='İzin Şablonu';
-$hesklang['permission_template'] ='İzin Şablonu';
-$hesklang['custom'] ='Özel';
-
-// ADDED OR MODIFIED IN Mods for HESK 2.2.1
-$hesklang['popart_no_colon']='En Çok Bilgi Veren Makaleler'; // $ hesklang ['popart'] ile aynı fakat iki nokta üst üste olmadan:
-$hesklang['latart_no_colon']='En Son Bilgi Bankası Makaleleri'; // $ hesklang ['latart'] ile aynı fakat iki nokta üst üste olmadan:
-$hesklang['ac_no_colon']='Bu Kategorideki Makaleler'; // $ hesklang ['ac'] ile aynıdır ancak iki nokta üst üste olmadan:
-
-// ADDED OR MODIFIED IN Mods for HESK 2.2.0
-$hesklang['email_templates'] ='E-posta şablonları';
-$hesklang['email_templates_intro'] ='Düz metin ve HTML e-posta şablonlarınızı buradan düzenleyebilirsiniz.';
-$hesklang['edit_plain_text_template'] ='Düz metin şablonunu düzenle';
-$hesklang['edit_html_template'] ='HTML şablonunu düzenle';
-$hesklang['editing_plain_text_template'] ='Düz metin şablonunu düzenleme <code>%s </code>'; //%s: Şablon dosyasının adı, ardından dil adı
-$hesklang['editing_html_template'] ='HTML şablonunun düzenlenmesi <code>%s </code>'; //%s: Şablon dosyasının adı, ardından dil adı
-$hesklang['show_special_tags'] ='Özel Etiketleri Göster';
-$hesklang['hide_special_tags'] ='Özel Etiketleri Gizle';
-$hesklang['special_tag'] ='Özel Etiket';
-$hesklang['description'] ='Açıklama';
-$hesklang['customer_name'] ='Müşteri adı';
-$hesklang['customer_email'] ='Müşteri e-postası';
-$hesklang['ticket_subject'] ='Bilet konusu';
-$hesklang['ticket_message'] ='Bilet / Yanıt mesajı';
-$hesklang['ticket_created'] ='Bilet gönderilme tarihi ve saati';
-$hesklang['ticket_updated'] ='Biletin son güncelleme tarihi ve saati';
-$hesklang['ticket_url'] ='Bilet URL adresi';
-$hesklang['ticket_category'] ='Bilet kategorisi';
-$hesklang['ticket_owner'] ='Bilete görevli üye';
-$hesklang['ticket_priority'] ='Bilet önceliği';
-$hesklang['custom_field_x'] ='Özel Alanlar'; //%s: Özel alan # 1-20
-$hesklang['email_template_saved'] ='<b>%s </b> e-posta şablonu kaydedildi.'; //%s: Şablon dosyası adı
-$hesklang['error_saving_template'] ='E-posta şablonunu kaydetmeye çalışırken bir hata oluştu!';
-$hesklang['can_man_email_tpl'] ='E-posta şablonlarını düzenle';
-$hesklang['email_template_directory_not_writable'] ="<b>%s </b> e-posta şablonu, HESK tarafından yazılabilir değil. Lütfen 0666'ya CHMOD yapın. "; //%s: şablon dosyası adı
-$hesklang['closable_question'] ='Kapatılabilir mi?';
-$hesklang['closable_description'] ="<b> <i> Bu ayar, & quot; Kapalı? & Quot; Ayarı & quot; Evet & quot; Bu durum için </i> </b>.
-     <br> <br> Müşteri ve / veya personelin bu statüde bir bilet kapatabilip kapatılmadığını belirler.
-     <br> <br> <b> Evet: </b> Hem müşteri hem de personel bu statüde bir bilet kapatabiliyor.
-     <br> <b> Yalnızca müşteriler: </b> Müşteriler bu statüde bir bilet kapatabiliyor ancak personel yapamıyor.
-     <br> <b> Yalnızca personel: </b> Personel bu statüye göre bir bilet kapatabiliyor ancak müşteriler bunu yapamıyor.
-     <br> <b> Hayır: </b> Hiç kimse bu statüsünde bir bilet kapatabilecek."; // &quot; = "
-$hesklang['customers_only'] ='Sadece müşteriler';
-$hesklang['staff_only'] ='Personellere aittir';
-$hesklang['yes_title_case'] ='Evet';
-$hesklang['no_title_case'] ='Yok hayır';
-$hesklang['autoclose_ticket_status'] ='Bir bilet otomatik olarak kapatıldığında durumu';
-$hesklang['recent_tickets'] = 'Son talepler';
-$hesklang['current_status_colon'] ='Şu anki durum:%s'; //%s: durum adı (yani "Çözümlendi", "Yeni" vb.)
-$hesklang['email_attachments'] ='E-posta ekleri';
-$hesklang['email_attachments_help'] ='<b> Ekleri bağlantı olarak göster: </b> Eklere yapılan bağlantılar e-postanın sonuna eklenir.
-     <br> <br> <b> Doğrudan e-postaya ekle: </b> Ekler doğrudan e-postalara gömülecektir.';
-$hesklang['show_attachments_as_links'] ='Ekleri bağlantı olarak göster';
-$hesklang['attach_directly_to_email'] ='Doğrudan e-posta ekleyin';
-
-// ADDED OR MODIFIED IN Mods for HESK 2.1.1
-$hesklang['new_article_default_type'] ='Yeni Makaleler İçin Varsayılan Tür';
-$hesklang['new_article_default_type_help'] ='Yeni bilgi bankası makaleleri için varsayılan türünü seçin.';
-$hesklang['kb_draft3'] ='Makale kaydedildi, ancak henüz yayınlanmadı. Sadece okuma izni olan personel tarafından okunabilir
- manage knowledgebase articles.'; // This is exactly the same as kb_draft2 with all HTML removed
-$hesklang['file_name'] ='Dosya adı';
-$hesklang['action'] ='Aksiyon';
-$hesklang['click_to_preview'] ='Önizlemek için tıklayın';
-$hesklang['attachment_removed'] ='Bu ek kaldırıldı ve görüntülenemiyor / indirilemiyor';
-
-// ADDED OR MODIFIED IN Mods for HESK 2.1.0
-$hesklang['e_mfh_settings'] ="Bu dosyaya komut dosyası (CHMOD'dan 666'ya) yazılabilir değilse, ayarlarınızı kaydedemezsiniz!";
-$hesklang['mfh_up_to_date'] ='HESK Modları güncel';
-$hesklang['use_bootstrap_theme'] ="Boostrap Tema CSS'si Kullan";
-$hesklang['use_bootstrap_theme_help'] ='<code> bootstrap-theme.css </code> dosyasını kullanmak için bunu etkinleştirin. Daha fazla 3D görünüm ve his için kullanın veya daha düzgün bir görünüm için devre dışı bırakın. ';
-
-// ADDED OR MODIFIED IN Mods For HESK 2.0.0
-$hesklang['saved_ticket_tpl'] ='Kayıtlı Şablonlar';
-$hesklang['new_ticket_tpl']='Talep şablonu Ekle veya Düzenle';
-$hesklang['and_change_status_to'] ='Ve durumunu olarak değiştir'; // $ hesklang ['submit_reply'] ile birlikte kullanılır ("Yanıt gönder ve durum değiştir" yazısı okunur)
-$hesklang['closed_title'] ='Kapalı';
-$hesklang['image'] ='Görüntü'; // alt etiketi için kullanılır
-$hesklang['close_modal'] ='Kapat';
-$hesklang['email_custom_field'] ='E';
-$hesklang['email_custom_field_help'] ='Bir e-posta adresinin girilmesini sağlar. Bununla birlikte, bir metin alanına benzer şekilde, e-posta adresleri, seçilen seçeneğe bağlı olarak, Cc veya Bcc bölümünde bulunan bu e-postanın tüm e-postalarına eklenecektir. ';
-$hesklang['email_custom_field_label'] ='Adres Tipi';
-$hesklang['cc'] ='CC:';
-$hesklang['bcc'] ='Bcc:';
-$hesklang['mailgun'] ='Mailgun';
-$hesklang['mailgun_help'] ="Mailgun API'sini kullanarak posta gönderin. Mailgun hakkında daha fazla bilgi için, https://www.mailgun.com adresini ziyaret edin";
-$hesklang['mailgun_api_key'] ='Mailgun API Anahtarı';
-$hesklang['mailgun_api_key_help'] ='Mailgun için API anahtarınız.';
-$hesklang['mailgun_domain'] ='Mailgun Domain';
-$hesklang['mailgun_domain_help'] ='Mailgun için kayıtlı alanınız';
-$hesklang['html_emails'] ='HTML E-postaları';
-$hesklang['html_emails_help'] ="HTML destekli e-postaları çalışanlara ve müşterilere gönderin. <br> <br> Bu özelliği kullanmak için <b> html </b> adlı yeni bir klasör oluşturun
-     Dil\'ın <b> e-postaları </b> klasörüne girin ve her e-posta dosyası için şablon oluşturun. Hem HTML hem de düz metin sürümleri gönderilecek (alıcı \'ın e-posta programı
-     Posta istemcisinin ayarlarına bağlı olarak HTML veya düz metin sürümünü düzgün şekilde görüntüler.";
-$hesklang['html_emails_text'] ='HTML biçimlendirilmiş e-postaları etkinleştir';
-$hesklang['beta_text'] ='BETA';
-
-
-// ADDED OR MODIFIED IN Mods For HESK 1.7.0
-$hesklang['date_custom_field'] ='Tarih';
-$hesklang['date_custom_field_text'] ='Bu özel alan türü için seçenek yok.';
-$hesklang['multiple_select_custom_field'] ='Birden Çok Seçme Kutusu';
-$hesklang['multiple_select_custom_field_text'] ='Bu çoklu seçim kutusu için seçenekler, her satıra bir seçenek girin (her satır, müşterilerinizin seçim yapabileceği bir seçenek olacaktır). En az iki seçenek girmeniz gerekiyor! ';
-$hesklang['date_format'] ='Tarih, YYYY-AA-GG formatında olmalıdır.';
-$hesklang['custom_field_setting'] ='Çok dilli destek';
-$hesklang['custom_field_setting_help'] ='Bu ayarın etkinleştirilmesi, dil olarak özel alanın adını kullanacaktır
-    file\'s key, rather than the direct name itself. This allows the custom field to be translated into different languages.';
-$hesklang['enable_custom_field_language'] ='Çok dilli desteği etkinleştir';
-$hesklang['custom_language_key'] ='Alan dil dosyası anahtarı';
-$hesklang['ticket_reopen_assigned'] ='[#%%TRACK_ID%%] Atanan bilet yeniden açıldı';
-$hesklang['verify_email'] ="E-mail'i doğrula";
-$hesklang['email_verified'] ='<b>%s </b> e-posta adresi doğrulanmış. Ayrıca şu biletler oluşturuldu: '; //%s: e-posta adresi
-$hesklang['verify_no_records'] ='Bu etkinleştirme anahtarı için kayıt bulunamadı. Bu etkinleştirme anahtarı zaten kullanıldı mı? ';
-$hesklang['activation_key'] ='Aktivasyon anahtarı';
-$hesklang['no_tickets_created'] ='Biletler oluşturulmadı';
-$hesklang['customer_email_verification'] ='Müşteri E-postası Doğrulaması';
-$hesklang['customer_email_verification_help'] ='Müşterilerin e-posta adreslerini e-postayla doğrulamasını isteyin. Bir kere
-    address has been verified, it does not need to be re-verified in the future. <br><br> <b>NOTE:</b> Bunu etkinleştirdiğinizde,
-     HESK, hangi e-postanın doğrulanması gerektiğini belirleyemeyeceğinden, müşterinin birden fazla e-posta sunma yeteneği vardır.';
-$hesklang['require_customer_validate_email'] ='Müşterilerin e-postaları doğrulamasını isteyin';
-$hesklang['multi_eml_disabled'] ='Bu yardım masası, gerektiği gibi yapılandırıldığından, bu özellik devre dışı bırakıldı
-    customers to verify their email address';
-$hesklang['feature_disabled'] ='Özellik Devre Dışı';
-$hesklang['verify_your_email'] ='Biletiniz yaratıldı; Ancak biletinizin ele alınabilmesi için e-postanızın doğrulanması gerekir. Doğrulama için verilen e-postaya bir e-posta gönderilmiştir. ';
-$hesklang['installation_information'] ='Kurulum Bilgisi';
-
-// ADDED OR MODIFIED IN Mods For HESK 1.6.0
-$hesklang['create_based_on_contact'] ='Aynı Kişinin Biletini Oluşturun';
-$hesklang['notify_note_unassigned'] ='Birisi bana atanmamış bir bilet ekler';
-$hesklang['can_change_notification_settings'] ='Bildirim ayarlarını değiştirebilir';
-$hesklang['add_row'] ='Satır ekle';
-$hesklang['addnote'] ='Not ekle';
-$hesklang['mods_for_hesk'] ='HESK için Modlar';
-$hesklang['err_modsForHesk_settings'] ="Yazma için <b> modsForHesk_settings.inc.php </b> dosyasını açamazsınız. Lütfen bu dosyayı CHMOD 666'ya (rw-rw-rw-)";
-$hesklang['mods_for_hesk_version'] ='HESK Sürümü için Modlar';
-// ADDED OR MODIFIED IN Mods For HESK 1.5.0
-$hesklang['ticket_auto_refresh'] ='Bilet Tablosu Otomatik Yenile:';
-$hesklang['display_rtl'] ='Görüntülü siteyi sağdan sola';
-$hesklang['show_icons_navigation'] ='Gezinme çubuğunda simgeleri göster';
-$hesklang['enable_maintenance'] ='Bakım modunu etkinleştir';
-$hesklang['can_man_settings']='Yardım Masası Ayarları Yönetimi';
-$hesklang['disable_user'] ='Etkin olan kullanıcı (devre dışı bırakmak için tıklayın)';
-$hesklang['enable_user'] ='Kullanıcı aktif değil (etkinleştirmek için tıklayın)';
-$hesklang['user_activated'] ='Kullanıcı etkinleştirildi';
-$hesklang['user_deactivated'] ='Kullanıcı devre dışı bırakıldı';
-$hesklang['active_user'] ='Etkin kullanıcı var';
-$hesklang['self_deactivation'] ='Kendinizi deaktive edemezsiniz!';
-$hesklang['inactive_user'] ='Hesabınız şu anda etkin değil. Daha fazla bilgi için yönetici ile iletişime geçin. ';
-$hesklang['cant_edit_admin'] ="Süper Yönetici'yi (Kullanıcı Kimliği = 1) düzenleyemezsiniz";
-$hesklang['notifications_disabled_info'] ='Bildirimlerin değiştirilmesi ayarları yöneticiniz tarafından devre dışı bırakıldı.';
-
-// ADDED OR MODIFIED IN Mods For HESK 1.4.0
-$hesklang['navbarBackgroundColor'] ='Navbar Arka Plan Rengi';
-$hesklang['navbarBackgroundColorHelp'] ='Üst gezinme çubuğunun ana rengi. Bu hem müşteri hem de personel tarafı için geçerlidir. ';
-$hesklang['navbarBrandColor'] ='Navbar Marka Rengi';
-$hesklang['navbarBrandColorHelp'] ="Soldaki \' markanın \'metin rengi (Yardım Masasının adı da)";
-$hesklang['navbarBrandHoverColor'] ='Navbar Marka Geçiş Rengi';
-$hesklang['navbarBrandHoverColorHelp'] ="Kullanımda fareyi farenin üzerine getirdiğinde soldaki \' markanın \'metin rengi.";
-$hesklang['navbarItemTextColor'] ='Navbar Öğe Metin Rengi';
-$hesklang['navbarItemTextColorHelp'] ="Gezinme çubuğundaki gezinme öğelerinin metin rengi (varsayılan olarak \'Ev \', \'Bilet\' ve \'Bilgi Bankası\' istemci tarafındaki üç öğedir)";
-$hesklang['navbarItemTextHoverColor'] ='Navbar Öğe Metin Hover Color';
-$hesklang['navbarItemTextHoverColorHelp'] ='Kullanıcı öğelerden birinin üzerine geldiğinde gezinme çubuğundaki gezinme öğelerinin metin rengi.';
-$hesklang['navbarItemTextSelectedColor'] ='Navbar Öğe Metin Seçili Renk';
-$hesklang['navbarItemTextSelectedColorHelp'] ='Kullanıcı bir öğeyi tıklattığında ve açılır menü görünürse gezinme çubuğundaki gezinme öğelerinin metin rengi (\' Bilet \'gibi) görüntülenir.';
-$hesklang['navbarItemSelectedBackgroundColor'] ='Navbar Öğesi Seçili Arka Plan Rengi';
-$hesklang['navbarItemSelectedBackgroundColorHelp'] ="Kullanıcı bir öğeyi tıklattığında ve açılır menü görünürse navigasyon çubuğundaki gezinme öğelerinin arka plan rengi (\' Bilet \ 'gibi) görüntülenir.";
-$hesklang['dropdownItemTextColor'] ='Açılır Menü Öğe Metin Rengi';
-$hesklang['dropdownItemTextColorHelp'] ='Açılır menü öğesinin metin rengi.';
-$hesklang['dropdownItemTextHoverColor'] ='Açılır Menü Öğe Metin Hover Color';
-$hesklang['dropdownItemTextHoverColorHelp'] ='Fareyle üzerine geldiğinde açılır menü öğesinin metin rengi.';
-$hesklang['questionMarkColor'] ='Soru İşareti Rengi';
-$hesklang['questionMarkColorHelp'] ="\' Ayarlar \' sayfasında ve diğer çeşitli sayfalarda görülen soru işareti çemberinin metin rengi.";
-$hesklang['dropdownItemTextHoverBackgroundColor'] ="Açılır Menü Öğe Metin Hover Arka Plan Rengi";
-$hesklang['dropdownItemTextHoverBackgroundColorHelp'] ='Fareyle üzerine geldiğinde açılır menü öğesinin arka plan rengi.';
-$hesklang['uiColors'] ='UI Renkleri';
-$hesklang['displayRtl'] ='Görüntülü siteyi sağdan sola';
-$hesklang['displayRtlHelp'] ='Metin yönünü sağdan sola ayarlamak için bunu işaretleyin.';
-$hesklang['showIcons'] ='Simgeleri Göster';
-$hesklang['showIconsHelp'] ='Simgelerini gezinme çubuğu öğelerinin yanında göstermek için bu kutuyu işaretleyin';
-$hesklang['maintenanceMode'] ='Bakım Modu';
-$hesklang['maintenanceModeHelp'] ='Yardım Masasını bakım moduna geçirmek için bu kutuyu işaretleyin. Çalışanlar hala arka planda oturum açabilir, ancak ön uç erişilemez olacaktır. ';
-$hesklang['none'] ='Yok';
-$hesklang['autorefresh'] ='Otomatik yenileme:';
-$hesklang['autorefresh_restrictions'] ="Değeri milisaniye cinsinden girin. Bu özelliği kullanmak için değer 1000'den büyük olmalıdır. Kesirli değer yok.";
-
-// ADDED OR MODIFIED IN Mods For HESK 1.2.2
-$hesklang['changeLanguage'] ='Dili değiştir';
-
-// ADDED OR MODIFIED IN Mods For HESK 1.2
-$hesklang['statuses'] ='Durumlar';
-$hesklang['basicProperties'] ='Temel Özellikler';
-$hesklang['textColor'] ='Metin rengi';
-$hesklang['textColorDescr'] ='Bu, bilet arama sayfasında ve dışa aktarma arama sayfasında kullanılacak durum için altı renk kodudur';
-$hesklang['closedQuestionMark'] ='Kapalı?';
-$hesklang['closedQuestionMarkDescr'] ='Eğer işaretlenirse, bu statüye getirildiyse, biletler kapalı kabul edilecektir.';
-$hesklang['basicProperties'] ='Temel Özellikler';
-$hesklang['defaultStatusForAction'] ='Eylem İçin Varsayılan Durum';
-$hesklang['isClosedByClientMsg'] ='Bir müşteri "Biletini kapat" bağlantısını tıklattığında, durumunu';
-$hesklang['isStaffClosedOptionMsg'] ='Bir görevli "Biletini Kapat" bağlantısını tıklattığında durumunu';
-$hesklang['isStaffReopenedStatusMsg'] ='Bir görevli "Açık bileti" bağlantısını tıklattığında durumunu';
-$hesklang['isDefaultStaffReplyStatusMsg'] ="Bir görevli bir bilete cevap verdiğinde durumunu' olarak değiştirin";
-$hesklang['lockedTicketStatusMsg'] ="Bir bilet kilitli olduğunda durumu' olarak değiştirin";
-$hesklang['textColorRequired'] ='Metin Rengi gereklidir.';
-$hesklang['addNew'] ='Yeni ekle';
-$hesklang['close_action']='Çözüldü olarak işaretle'; // ACTION'ı kapat
-$hesklang['whyCantIDeleteThisStatus'] ='Bu Durumu Sil etmiyorum? ';
-$hesklang['whyCantIDeleteThisStatusReason'] ="Bu durum belirli bir eylemin varsayılan durumu olarak kullanıldığı için silinemiyor.";
-$hesklang['isNewTicketMsg'] ='Yeni bir bilet oluşturulduğunda durumunu olarak ayarlayın';
-$hesklang['isRepliedByClientMsg'] ='Bir müşteri bir bilete cevap verdiğinde durumunu';
-$hesklang['close_this_ticket']='Bu talebi çözüldü olarak işaretle';
-$hesklang['closed']='Kapatıldı'; // işaretli KAPALI oldu
-$hesklang['resolved']='Çözüldü'; // Bilet ÇÖZÜLDÜ
-$hesklang['quick_help_ticket']='İşte biletiniz hakkında bilgi. Varsa, bu bileti cevaplayabilir, kapatabilir veya biletini tekrar açabilirsiniz. ';
-
-
-// ADDED OR MODIFIED IN Mods For HESK pre-1.2
-$hesklang['search_the_knowledgebase'] ="Bilgi Bankası'nı arayın";
-$hesklang['view_ticket_nav'] = 'Talepleri Gör';
-$hesklang['quick_help']='Hızlı Yardım';
-$hesklang['quick_help_submit_ticket']='Lütfen bilet göndermek için sağ taraftaki formu doldurunuz. Gerekli alanlar <span class = "important"> * </span> ile işaretlenmiştir. ';
-$hesklang['quick_help_view_ticket']='Lütfen biletinizi görüntülemek için sağdaki gerekli bilgileri doldurunuz. Bilet takip kimliğinizi unuttuysanız, "İzleme kimliği unuttum" düğmesine tıklayın. ';
-$hesklang['information']='Bilgi';
-$hesklang['admin_sidebar_ticket_id']='BİLET KİMLİĞİ';
-$hesklang['priorityChange']='- - Değişim Önceliği - -';
-$hesklang['statusChange']='- - Durum Değiştir - -';
-$hesklang['ownerChange']='- - Sahibi Değiştir - -';
-$hesklang['categoryChange']='- - Kategoriyi Değiştir - -';
-$hesklang['navigation']='Navigasyon';
-$hesklang['nti']='+ Yeni talep';
-$hesklang['savedResponses']='Kaydedilen Cevaplar';
-$hesklang['add_ticket_general_information']='Genel bilgi';
-$hesklang['add_ticket_your_message']='Mesajın';
-
 // EMAIL SUBJECTS
 $hesklang['new_ticket_staff']       ='[#%%TRACK_ID%%] Yeni talep: %%SUBJECT%%';
 $hesklang['ticket_received']        ='[#%%TRACK_ID%%] Talep alındı: %%SUBJECT%%';
@@ -820,7 +202,10 @@ $hesklang['cat_removed']='Kategori silindi.';
 $hesklang['cat_removed_db']='Seçilen kategori başarıyla veritabanından silindi.';
 $hesklang['sure_remove_user']='Bu kullanıcıyı silmek istediğinizden emin misiniz?';
 $hesklang['manage_users']='Kullanıcı Yönetimi';
-$hesklang['users_intro'] = 'Burada, yönetici paneline giriş yapabilen ve biletleri cevaplayabilecek kullanıcıları yönetebileceksiniz. Yöneticiler herhangi bir kategorideki biletleri görüntüleyebilir / düzenleyebilir ve diğer kullanıcıların kategorilerindeki biletleri yalnızca görüntüleyebilir ve cevaplayabilecekleri gibi yönetici panelinin tüm işlevlerine (kullanıcıları yönetme, kategorileri yönetme, ...) erişebilir.';
+$hesklang['users_intro']='Bu bölümde yönetim paneline girip talepleri cevaplamasını istediğiniz kullanıcılarınızla ilgili yetkilendirmeleri yapabilirsiniz. Yöneticiler tüm kategorilerde veya yetkilendirdiğiniz kategorilerdeki
+answer tickets. Administrators can view/edit tickets in any category and have access
+to all functions of the admin panel (manage users, manage categories, ...) while
+other users may only view and reply to tickets within their categories.';
 $hesklang['yes']='Evet';
 $hesklang['no']='Hayır';
 $hesklang['edit']='Düzenle';
@@ -863,7 +248,6 @@ $hesklang['view_your_ticket']='Talebinizi Görüntüleyin';
 $hesklang['ticket_submitted']='Talep Kaydedildi';
 $hesklang['ticket_submitted_success']='Talebiniz başarıyla kaydedildi! Takip Numaranız';
 $hesklang['your_ticket']='Talebiniz';
-
 
 // ADDED IN HESK VERSION 0.94
 $hesklang['check_updates']='Hesk in son versiyonunu kullandığınızdan emin misiniz?';
@@ -984,7 +368,6 @@ $hesklang['e_save_settings']='Ayarlarınız kaydedilemedi, çünkü <b>hesk_sett
 $hesklang['e_attach']='Kapalı, çünkü <b>attachments</b> klasörünüzün chmod değeri yazılabilir durumda değil.';
 $hesklang['go']='Git';
 
-
 // ADDED OR CHANGED IN VERSION 2.0
 $hesklang['v']='HESK Versiyonu';
 $hesklang['check_status']='Durum Kontrolü';
@@ -1010,8 +393,9 @@ $hesklang['menu_kb']='Bilgi Bankası'; // Admin MENU item
 $hesklang['kb_text']='Bilgi Bankası'; // Item visible to customers
 $hesklang['viewkb']='Bilgi Bankası Kayıtlarını Gör';
 $hesklang['kb']='Bilgi Bankası Yönetimi';
-$hesklang['kb_intro'] = 'Bilgi Bankası, müşterilerinize kendi kendine yardım kaynakları sağlayan sıkça sorulan sorulara (SSS) ve makalelerden yanıtların bir toplamıdır.
-Kapsamlı ve iyi yazılmış bir bilgi bankası, aldığınız destek biletleri sayısını büyük ölçüde azaltabilir ve çok fazla zaman kazandırabilir. Makaleleri kategorilere ve alt kategorilere göre düzenleyebilirsiniz.'; // Description in ADMIN panel
+$hesklang['kb_intro']='Bilgi Bankası Bölümü ile sıkça karşılaştığınız soruların cevaplarını daha kolay bulabilmeniz için size yardımcı olacak bir bölümdür. Bilgi veya Yardım almak istediğiniz Bilgi Bankası Bölümü kategoris
+Kapsamlı ve iyi yazılmış bir bilgi bankası, aldığınız destek biletleri sayısını büyük ölçüde azaltabilir ve çok fazla zaman kazandırabilir. Makaleleri kategorilere göre düzenleyebilirsiniz
+Ve alt kategoriler.'; // Description in ADMIN panel
 $hesklang['kb_is']='Bilgi Bankası Bölümü, Sıkça Karşılaştığınız Soruların cevaplarını daha kolay bulabilmeniz için size yardımcı olacak bir bölümdür. Bilgi veya Yardım almak istediğiniz Bilgi Bankası Bölümü ve alt bölümlerini gezerek, yardım talebi açıp bekleyerek kaybedeceğiniz zamanı diğer işleriniz için kullanarak bazı sorunlarınızın çözümünü kolayca bulabilirsiniz.'; // Description for CUSTOMERS
 $hesklang['new_kb_art']='Yeni Bilgi Bankası İçeriği Ekle';
 $hesklang['kb_cat']='Kategori';
@@ -1203,7 +587,6 @@ $hesklang['err_qask'] ='Spam Koruması Sorusunu Giriniz';
 $hesklang['err_qans'] ='Spam Koruması Sorusunu Cevaplayınız';
 $hesklang['genq'] ='Rastgele bir soru üret';
 
-
 // Added or modified in version 2.1
 $hesklang['amo']='Başka ekle';
 $hesklang['delatt']='Seçilen ekli dosya silinsin mi?';
@@ -1246,7 +629,6 @@ $hesklang['selcan']='Lütfen düzenlemek istediğiniz hazır cevabı seçiniz.';
 $hesklang['q_wrng']='SPAM Koruması Cevabını Hatalı Girdiniz';
 $hesklang['cndupl']='Bu isimle bir kategori zaten mevcut. Lütfen başka bir kategori adı seçerek deneyiniz.';
 $hesklang['wsel']='Aramak istediğiniz kategoriyi seçiniz.';
-
 
 // Added or modified in version 2.2
 $hesklang['eto']='Geçersiz istek';
@@ -1513,7 +895,7 @@ $hesklang['import_kb']='Bu talebi bilgi bankası makalesi olarak koy';
 $hesklang['import']='<i>Özel talebi</i> <i>herkese açık makale</i> olarak eklemek üzeresiniz.<br/><br/>Gizli bilgileri makaleden silip silmediğinize emin olun!';
 $hesklang['tab_1']='Genel';
 $hesklang['tab_2']='Yardım Masası';
-$hesklang['tab_3']='Bilgi Masası';
+$hesklang['tab_3']='Bilgi Bankası';
 $hesklang['tab_4']='Kişisel Alanlar';
 $hesklang['tab_5']='E-posta - Piping';
 $hesklang['disable']='Pasif';
@@ -1706,7 +1088,6 @@ $hesklang['getup']='HESK\'i güncelle';
 $hesklang['updates']='HESK Güncelleme';
 $hesklang['updates2']='HESK güncellemelerini otomatik denetle.';
 
-
 // Added or modified in version 2.5.0
 $hesklang['emp']='Php sunucunuzun mysql desteği yoktur (mysqli eklentisi aktif olmalıdır)';
 $hesklang['attdel']='Bu dosya sunucudan silinmiştir. Mevcut değildir';
@@ -1764,18 +1145,18 @@ $hesklang['maxpost']='Muhtemelen bu sunucunun kabul ettiği miktardan daha fazla
 
 // --> Ticket history log
 // Unless otherwise specified, first %s will be replaced with date and second with name/username
-$hesklang['thist1'] = '<li class="smaller">%s tarihinde %s tarafından %s kategorisine taşındı</li>';
-$hesklang['thist2'] = '<li class="smaller">%s tarihinde %s kullanıcısına %s tarafından atandı</li>';
-$hesklang['thist3'] = '<li class="smaller">%s tarihinde %s tarafından kapandı</li>';
-$hesklang['thist4'] = '<li class="smaller">%s tarihinde %s tarafından açıldı</li>';
-$hesklang['thist5'] = '<li class="smaller">%s tarihinde %s tarafından kilitlendi</li>';
-$hesklang['thist6'] = '<li class="smaller">%s tarihinde %s tarafından tekrar açıldı</li>';
-$hesklang['thist7'] = '<li class="smaller">%s tarihinde %s tarafından oluşturuldu</li>';
-$hesklang['thist8'] = '<li class="smaller">%s tarihinde %s tarafından öncelik %s\'e değiştirildi</li>';
-$hesklang['thist9'] = '<li class="smaller">%s tarihinde %s tarafından durum %s\'e değiştirildi</li>';
-$hesklang['thist10'] = '<li class="smaller">%s tarihinde otomatik olarak %s\'e atandı</li>';
-$hesklang['thist11'] = '<li class="smaller">%s tarihinde e-posta borulama (piping) onaylandı</li>';
-$hesklang['thist12'] = '<li class="smaller">%s tarihinde %s eklentisi %s tarafından silindi</li>';
+$hesklang['thist1']='<li class="smaller">%s üzerinde %s tarafından %s kategorisine taşındı</li>';
+$hesklang['thist2']='<li class="smaller">%s üzerinde %s tarafından %s atandı</li>';
+$hesklang['thist3']='<li class="smaller">%s üzerinde %s tarafından kapandı</li>';
+$hesklang['thist4']='<li class="smaller">%s üzerinde %s tarafından açıldı</li>';
+$hesklang['thist5']='<li class="smaller">%s üzerinde %s tarafından kilitlendi</li>';
+$hesklang['thist6']='<li class="smaller">%s üzerinde %s tarafından tekrar açıldı</li>';
+$hesklang['thist7']='<li class="smaller">%s üzerinde %s tarafından oluşturuldu</li>';
+$hesklang['thist8']='<li class="smaller">%s üzerinde %s tarafından öncelik %s\'e değiştirildi</li>';
+$hesklang['thist9']='<li class="smaller">%s üzerinde %s tarafından durum %s\'e değiştirildi</li>';
+$hesklang['thist10']='<li class="smaller">%s üzrinde otomatik olarak %s\'e atandı</li>';
+$hesklang['thist11']='<li class="smaller">%s üzerinde e-posta borulama (piping) onaylandı</li>';
+$hesklang['thist12']='<li class="smaller">%s üzerinde %s eklentisi %s tarafından silindi</li>';
 $hesklang['thist13']='<li class="smaller">%s | Talep, %s ile by %s tarafından birleştirildi.</li>'; // %s = date, merged ticket ID, user making change
 $hesklang['thist14']='<li class="smaller">%s | talep üzerinde çalışma süresi %s olarak %s</li> tarafından değiştirildi'; // %s = date, new time worked, user making change
 $hesklang['thist15']='<li class="smaller">%s | Talep, %s tarafından gönderildi.</li>';
@@ -2006,7 +1387,7 @@ $hesklang['RECAPTCHA']='en';
 // Added or modified in version 2.7.0
 $hesklang['imap']='IMAP Alma';
 $hesklang['imaph']='IMAP Host';
-$hesklang['imapp']='IMAP Limanı';
+$hesklang['imapp']='IMAP Portu';
 $hesklang['enc']='Şifreleme';
 $hesklang['ssl']='SSL';
 $hesklang['tls']='TLS';
@@ -2170,13 +1551,695 @@ $hesklang['del_kba']='Bu makaleyi sil';
 $hesklang['del_kbaa']='Bu makaleyi kalıcı olarak sil';
 $hesklang['hni1']='HESK henüz kurulmadı mı?';
 $hesklang['hni2']='Bu yardım masası düzgün kurulmamış ve yapılandırılmamış gibi görünüyor';
-$hesklang['hni3'] = "HESK'yi yüklemek için <a href='docs/> Belgelerdeki adımları </a> takip edin";
+$hesklang['hni3']="HESK'yi yüklemek için <a href='docs/> Belgelerdeki talimatları </a> takip edin";
 $hesklang['cf']='Önbellek klasörü';
 $hesklang['e_cdir']='Hesk, önbellek klasörü mevcut olmadıkça ve yazılabilir durumda olmadıkça, e-postaları ayrıştıramaz veya sonuçları önbelleğe alamaz.';
-$hesklang['step1'] = 'Adım 1';
+$hesklang['step1']='Aşama 1';
 $hesklang['step2']='Adım 2';
 $hesklang['dffs']='İndirme tamamlandığında, dosyayı sunucudan silin';
 $hesklang['fd']='Dosyayı sunucu dışına sildim';
+
+// ADDED OR MODIFIED IN Mods For HESK pre-1.2
+$hesklang['search_the_knowledgebase'] ="Bilgi Bankası'nı arayın";
+$hesklang['view_ticket_nav']='Bilgiyi Gör';
+$hesklang['quick_help']='Hızlı Yardım';
+$hesklang['quick_help_submit_ticket']='Lütfen bilet göndermek için sağ taraftaki formu doldurunuz. Gerekli alanlar <span class = "important"> * </span> ile işaretlenmiştir. ';
+$hesklang['quick_help_view_ticket']='Lütfen biletinizi görüntülemek için sağdaki gerekli bilgileri doldurunuz. Bilet takip kimliğinizi unuttuysanız, "İzleme kimliği unuttum" düğmesine tıklayın. ';
+$hesklang['information']='Bilgi';
+$hesklang['admin_sidebar_ticket_id']='BİLET KİMLİĞİ';
+$hesklang['priorityChange']='- - Değişim Önceliği - -';
+$hesklang['statusChange']='- - Durum Değiştir - -';
+$hesklang['ownerChange']='- - Sahibi Değiştir - -';
+$hesklang['categoryChange']='- - Kategoriyi Değiştir - -';
+$hesklang['navigation']='Navigasyon';
+$hesklang['nti']='+ Yeni talep';
+$hesklang['savedResponses']='Kaydedilen Cevaplar';
+$hesklang['add_ticket_general_information']='Genel bilgi';
+$hesklang['add_ticket_your_message']='Mesajın';
+
+// ADDED OR MODIFIED IN Mods For HESK 1.2
+$hesklang['statuses'] ='Durumlar';
+$hesklang['basicProperties'] ='Temel Özellikler';
+$hesklang['textColor'] ='Metin rengi';
+$hesklang['textColorDescr'] ='Bu, bilet arama sayfasında ve dışa aktarma arama sayfasında kullanılacak durum için altı renk kodudur';
+$hesklang['closedQuestionMark'] ='Kapalı?';
+$hesklang['closedQuestionMarkDescr'] ='Eğer işaretlenirse, bu statüye getirildiyse, biletler kapalı kabul edilecektir.';
+$hesklang['basicProperties'] ='Temel Özellikler';
+$hesklang['defaultStatusForAction'] ='Eylem İçin Varsayılan Durum';
+$hesklang['isClosedByClientMsg'] ='Bir müşteri "Biletini kapat" bağlantısını tıklattığında, durumunu';
+$hesklang['isStaffClosedOptionMsg'] ='Bir görevli "Biletini Kapat" bağlantısını tıklattığında durumunu';
+$hesklang['isStaffReopenedStatusMsg'] ='Bir görevli "Açık bileti" bağlantısını tıklattığında durumunu';
+$hesklang['isDefaultStaffReplyStatusMsg'] ="Bir görevli bir bilete cevap verdiğinde durumunu' olarak değiştirin";
+$hesklang['lockedTicketStatusMsg'] ="Bir bilet kilitli olduğunda durumu' olarak değiştirin";
+$hesklang['textColorRequired'] ='Metin Rengi gereklidir.';
+$hesklang['addNew'] ='Yeni ekle';
+$hesklang['close_action']='Çözüldü olarak işaretle'; // ACTION'ı kapat
+$hesklang['whyCantIDeleteThisStatus'] ='Bu Durumu Sil etmiyorum? ';
+$hesklang['whyCantIDeleteThisStatusReason'] ="Bu durum belirli bir eylemin varsayılan durumu olarak kullanıldığı için silinemiyor.";
+$hesklang['isNewTicketMsg'] ='Yeni bir bilet oluşturulduğunda durumunu olarak ayarlayın';
+$hesklang['isRepliedByClientMsg'] ='Bir müşteri bir bilete cevap verdiğinde durumunu';
+$hesklang['close_this_ticket']='Bu talebi çözüldü olarak işaretle';
+$hesklang['closed']='Kapatıldı'; // işaretli KAPALI oldu
+$hesklang['resolved']='Çözüldü'; // Bilet ÇÖZÜLDÜ
+$hesklang['quick_help_ticket']='İşte biletiniz hakkında bilgi. Varsa, bu bileti cevaplayabilir, kapatabilir veya biletini tekrar açabilirsiniz. ';
+
+// ADDED OR MODIFIED IN Mods For HESK 1.2.2
+$hesklang['changeLanguage'] ='Dili değiştir';
+
+// ADDED OR MODIFIED IN Mods For HESK 1.4.0
+$hesklang['navbarBackgroundColor'] ='Navbar Arka Plan Rengi';
+$hesklang['navbarBackgroundColorHelp'] ='Üst gezinme çubuğunun ana rengi. Bu hem müşteri hem de personel tarafı için geçerlidir. ';
+$hesklang['navbarBrandColor'] ='Navbar Marka Rengi';
+$hesklang['navbarBrandColorHelp'] ="Soldaki \' markanın \'metin rengi (Yardım Masasının adı da)";
+$hesklang['navbarBrandHoverColor'] ='Navbar Marka Geçiş Rengi';
+$hesklang['navbarBrandHoverColorHelp'] ="Kullanımda fareyi farenin üzerine getirdiğinde soldaki \' markanın \'metin rengi.";
+$hesklang['navbarItemTextColor'] ='Navbar Öğe Metin Rengi';
+$hesklang['navbarItemTextColorHelp'] ="Gezinme çubuğundaki gezinme öğelerinin metin rengi (varsayılan olarak \'Ev \', \'Bilet\' ve \'Bilgi Bankası\' istemci tarafındaki üç öğedir)";
+$hesklang['navbarItemTextHoverColor'] ='Navbar Öğe Metin Hover Color';
+$hesklang['navbarItemTextHoverColorHelp'] ='Kullanıcı öğelerden birinin üzerine geldiğinde gezinme çubuğundaki gezinme öğelerinin metin rengi.';
+$hesklang['navbarItemTextSelectedColor'] ='Navbar Öğe Metin Seçili Renk';
+$hesklang['navbarItemTextSelectedColorHelp'] ='Kullanıcı bir öğeyi tıklattığında ve açılır menü görünürse gezinme çubuğundaki gezinme öğelerinin metin rengi (\' Bilet \'gibi) görüntülenir.';
+$hesklang['navbarItemSelectedBackgroundColor'] ='Navbar Öğesi Seçili Arka Plan Rengi';
+$hesklang['navbarItemSelectedBackgroundColorHelp'] ="Kullanıcı bir öğeyi tıklattığında ve açılır menü görünürse navigasyon çubuğundaki gezinme öğelerinin arka plan rengi (\' Bilet \ 'gibi) görüntülenir.";
+$hesklang['dropdownItemTextColor'] ='Açılır Menü Öğe Metin Rengi';
+$hesklang['dropdownItemTextColorHelp'] ='Açılır menü öğesinin metin rengi.';
+$hesklang['dropdownItemTextHoverColor'] ='Açılır Menü Öğe Metin Hover Color';
+$hesklang['dropdownItemTextHoverColorHelp'] ='Fareyle üzerine geldiğinde açılır menü öğesinin metin rengi.';
+$hesklang['questionMarkColor'] ='Soru İşareti Rengi';
+$hesklang['questionMarkColorHelp'] ="\' Ayarlar \' sayfasında ve diğer çeşitli sayfalarda görülen soru işareti çemberinin metin rengi.";
+$hesklang['dropdownItemTextHoverBackgroundColor'] ="Açılır Menü Öğe Metin Hover Arka Plan Rengi";
+$hesklang['dropdownItemTextHoverBackgroundColorHelp'] ='Fareyle üzerine geldiğinde açılır menü öğesinin arka plan rengi.';
+$hesklang['uiColors'] ='UI Renkleri';
+$hesklang['displayRtl'] ='Görüntülü siteyi sağdan sola';
+$hesklang['displayRtlHelp'] ='Metin yönünü sağdan sola ayarlamak için bunu işaretleyin.';
+$hesklang['showIcons'] ='Simgeleri Göster';
+$hesklang['showIconsHelp'] ='Simgelerini gezinme çubuğu öğelerinin yanında göstermek için bu kutuyu işaretleyin';
+$hesklang['maintenanceMode'] ='Bakım Modu';
+$hesklang['maintenanceModeHelp'] ='Yardım Masasını bakım moduna geçirmek için bu kutuyu işaretleyin. Çalışanlar hala arka planda oturum açabilir, ancak ön uç erişilemez olacaktır. ';
+$hesklang['none'] ='Yok';
+$hesklang['autorefresh'] ='Otomatik yenileme:';
+$hesklang['autorefresh_restrictions'] ="Değeri milisaniye cinsinden girin. Bu özelliği kullanmak için değer 1000'den büyük olmalıdır. Kesirli değer yok.";
+
+// ADDED OR MODIFIED IN Mods For HESK 1.5.0
+$hesklang['ticket_auto_refresh'] ='Bilet Tablosu Otomatik Yenile:';
+$hesklang['display_rtl'] ='Görüntülü siteyi sağdan sola';
+$hesklang['show_icons_navigation'] ='Gezinme çubuğunda simgeleri göster';
+$hesklang['enable_maintenance'] ='Bakım modunu etkinleştir';
+$hesklang['can_man_settings']='Yardım Masası Ayarları Yönetimi';
+$hesklang['disable_user'] ='Etkin olan kullanıcı (devre dışı bırakmak için tıklayın)';
+$hesklang['enable_user'] ='Kullanıcı aktif değil (etkinleştirmek için tıklayın)';
+$hesklang['user_activated'] ='Kullanıcı etkinleştirildi';
+$hesklang['user_deactivated'] ='Kullanıcı devre dışı bırakıldı';
+$hesklang['active_user'] ='Etkin kullanıcı var';
+$hesklang['self_deactivation'] ='Kendinizi deaktive edemezsiniz!';
+$hesklang['inactive_user'] ='Hesabınız şu anda etkin değil. Daha fazla bilgi için yönetici ile iletişime geçin. ';
+$hesklang['cant_edit_admin'] ="Süper Yönetici'yi (Kullanıcı Kimliği = 1) düzenleyemezsiniz";
+$hesklang['notifications_disabled_info'] ='Bildirimlerin değiştirilmesi ayarları yöneticiniz tarafından devre dışı bırakıldı.';
+
+// ADDED OR MODIFIED IN Mods For HESK 1.6.0
+$hesklang['create_based_on_contact'] ='Aynı Kişinin Biletini Oluşturun';
+$hesklang['notify_note_unassigned'] ='Birisi bana atanmamış bir bilet ekler';
+$hesklang['can_change_notification_settings'] ='Bildirim ayarlarını değiştirebilir';
+$hesklang['add_row'] ='Satır ekle';
+$hesklang['addnote'] ='Not ekle';
+$hesklang['mods_for_hesk'] ='HESK için Modlar';
+$hesklang['err_modsForHesk_settings'] ="Yazma için <b> modsForHesk_settings.inc.php </b> dosyasını açamazsınız. Lütfen bu dosyayı CHMOD 666'ya (rw-rw-rw-)";
+$hesklang['mods_for_hesk_version'] ='HESK Sürümü için Modlar';
+
+// ADDED OR MODIFIED IN Mods For HESK 1.7.0
+$hesklang['date_custom_field'] ='Tarih';
+$hesklang['date_custom_field_text'] ='Bu özel alan türü için seçenek yok.';
+$hesklang['multiple_select_custom_field'] ='Birden Çok Seçme Kutusu';
+$hesklang['multiple_select_custom_field_text'] ='Bu çoklu seçim kutusu için seçenekler, her satıra bir seçenek girin (her satır, müşterilerinizin seçim yapabileceği bir seçenek olacaktır). En az iki seçenek girmeniz gerekiyor! ';
+$hesklang['date_format'] ='Tarih, YYYY-AA-GG formatında olmalıdır.';
+$hesklang['custom_field_setting'] ='Çok dilli destek';
+$hesklang['custom_field_setting_help'] ='Bu ayarın etkinleştirilmesi, dil olarak özel alanın adını kullanacaktır
+    file\'s key, rather than the direct name itself. This allows the custom field to be translated into different languages.';
+$hesklang['enable_custom_field_language'] ='Çok dilli desteği etkinleştir';
+$hesklang['custom_language_key'] ='Alan dil dosyası anahtarı';
+$hesklang['ticket_reopen_assigned'] ='[#%%TRACK_ID%%] Atanan bilet yeniden açıldı';
+$hesklang['verify_email'] ="E-mail'i doğrula";
+$hesklang['email_verified'] ='<b>%s </b> e-posta adresi doğrulanmış. Ayrıca şu biletler oluşturuldu: '; //%s: e-posta adresi
+$hesklang['verify_no_records'] ='Bu etkinleştirme anahtarı için kayıt bulunamadı. Bu etkinleştirme anahtarı zaten kullanıldı mı? ';
+$hesklang['activation_key'] ='Aktivasyon anahtarı';
+$hesklang['no_tickets_created'] ='Biletler oluşturulmadı';
+$hesklang['customer_email_verification'] ='Müşteri E-postası Doğrulaması';
+$hesklang['customer_email_verification_help'] ='Müşterilerin e-posta adreslerini e-postayla doğrulamasını isteyin. Bir kere
+    address has been verified, it does not need to be re-verified in the future. <br><br> <b>NOTE:</b> Enabling this will disable the
+    ability for the customer to provide multiple emails, as HESK will be unable to determine which email needs to be verified.';
+$hesklang['require_customer_validate_email'] ='Müşterilerin e-postaları doğrulamasını isteyin';
+$hesklang['multi_eml_disabled'] ='Bu yardım masası, gerektiği gibi yapılandırıldığından, bu özellik devre dışı bırakıldı
+    customers to verify their email address';
+$hesklang['feature_disabled'] ='Özellik Devre Dışı';
+$hesklang['verify_your_email'] ='Biletiniz yaratıldı; Ancak biletinizin ele alınabilmesi için e-postanızın doğrulanması gerekir. Doğrulama için verilen e-postaya bir e-posta gönderilmiştir. ';
+$hesklang['installation_information'] ='Kurulum Bilgisi';
+
+// ADDED OR MODIFIED IN Mods For HESK 2.0.0
+$hesklang['saved_ticket_tpl'] ='Kayıtlı Şablonlar';
+$hesklang['new_ticket_tpl']='Talep şablonu Ekle veya Düzenle';
+$hesklang['and_change_status_to'] ='Ve durumunu olarak değiştir'; // $ hesklang ['submit_reply'] ile birlikte kullanılır ("Yanıt gönder ve durum değiştir" yazısı okunur)
+$hesklang['closed_title'] ='Kapalı';
+$hesklang['image'] ='Görüntü'; // alt etiketi için kullanılır
+$hesklang['close_modal'] ='Kapat';
+$hesklang['email_custom_field'] ='E';
+$hesklang['email_custom_field_help'] ='Bir e-posta adresinin girilmesini sağlar. Bununla birlikte, bir metin alanına benzer şekilde, e-posta adresleri, seçilen seçeneğe bağlı olarak, Cc veya Bcc bölümünde bulunan bu e-postanın tüm e-postalarına eklenecektir. ';
+$hesklang['email_custom_field_label'] ='Adres Tipi';
+$hesklang['cc'] ='CC:';
+$hesklang['bcc'] ='Bcc:';
+$hesklang['mailgun'] ='Mailgun';
+$hesklang['mailgun_help'] ="Mailgun API'sini kullanarak posta gönderin. Mailgun hakkında daha fazla bilgi için, https://www.mailgun.com adresini ziyaret edin";
+$hesklang['mailgun_api_key'] ='Mailgun API Anahtarı';
+$hesklang['mailgun_api_key_help'] ='Mailgun için API anahtarınız.';
+$hesklang['mailgun_domain'] ='Mailgun Domain';
+$hesklang['mailgun_domain_help'] ='Mailgun için kayıtlı alanınız';
+$hesklang['html_emails'] ='HTML E-postaları';
+$hesklang['html_emails_help'] ="HTML destekli e-postaları çalışanlara ve müşterilere gönderin. <br> <br> Bu özelliği kullanmak için <b> html </b> adlı yeni bir klasör oluşturun
+     Dil\'ın <b> e-postaları </b> klasörüne girin ve her e-posta dosyası için şablon oluşturun. Hem HTML hem de düz metin sürümleri gönderilecek (alıcı \'ın e-posta programı
+     Posta istemcisinin ayarlarına bağlı olarak HTML veya düz metin sürümünü düzgün şekilde görüntüler.";
+$hesklang['html_emails_text'] ='HTML biçimlendirilmiş e-postaları etkinleştir';
+$hesklang['beta_text'] ='BETA';
+
+// ADDED OR MODIFIED IN Mods for HESK 2.1.0
+$hesklang['e_mfh_settings'] ="Bu dosyaya komut dosyası (CHMOD'dan 666'ya) yazılabilir değilse, ayarlarınızı kaydedemezsiniz!";
+$hesklang['mfh_up_to_date'] ='HESK Modları güncel';
+$hesklang['use_bootstrap_theme'] ="Boostrap Tema CSS'si Kullan";
+$hesklang['use_bootstrap_theme_help'] ='<code> bootstrap-theme.css </code> dosyasını kullanmak için bunu etkinleştirin. Daha fazla 3D görünüm ve his için kullanın veya daha düzgün bir görünüm için devre dışı bırakın. ';
+
+// ADDED OR MODIFIED IN Mods for HESK 2.1.1
+$hesklang['new_article_default_type'] ='Yeni Makaleler İçin Varsayılan Tür';
+$hesklang['new_article_default_type_help'] ='Yeni bilgi bankası makaleleri için varsayılan türünü seçin.';
+$hesklang['kb_draft3'] ='Makale kaydedildi, ancak henüz yayınlanmadı. Sadece okuma izni olan personel tarafından okunabilir
+ manage knowledgebase articles.'; // This is exactly the same as kb_draft2 with all HTML removed
+$hesklang['file_name'] ='Dosya adı';
+$hesklang['action'] ='Aksiyon';
+$hesklang['click_to_preview'] ='Önizlemek için tıklayın';
+$hesklang['attachment_removed'] ='Bu ek kaldırıldı ve görüntülenemiyor / indirilemiyor';
+
+// ADDED OR MODIFIED IN Mods for HESK 2.2.0
+$hesklang['email_templates'] ='E-posta şablonları';
+$hesklang['email_templates_intro'] ='Düz metin ve HTML e-posta şablonlarınızı buradan düzenleyebilirsiniz.';
+$hesklang['edit_plain_text_template'] ='Düz metin şablonunu düzenle';
+$hesklang['edit_html_template'] ='HTML şablonunu düzenle';
+$hesklang['editing_plain_text_template'] ='Düz metin şablonunu düzenleme <code>%s </code>'; //%s: Şablon dosyasının adı, ardından dil adı
+$hesklang['editing_html_template'] ='HTML şablonunun düzenlenmesi <code>%s </code>'; //%s: Şablon dosyasının adı, ardından dil adı
+$hesklang['show_special_tags'] ='Özel Etiketleri Göster';
+$hesklang['hide_special_tags'] ='Özel Etiketleri Gizle';
+$hesklang['special_tag'] ='Özel Etiket';
+$hesklang['description'] ='Açıklama';
+$hesklang['customer_name'] ='Müşteri adı';
+$hesklang['customer_email'] ='Müşteri e-postası';
+$hesklang['ticket_subject'] ='Bilet konusu';
+$hesklang['ticket_message'] ='Bilet / Yanıt mesajı';
+$hesklang['ticket_created'] ='Bilet gönderilme tarihi ve saati';
+$hesklang['ticket_updated'] ='Biletin son güncelleme tarihi ve saati';
+$hesklang['ticket_url'] ='Bilet URL adresi';
+$hesklang['ticket_category'] ='Bilet kategorisi';
+$hesklang['ticket_owner'] ='Bilete görevli üye';
+$hesklang['ticket_priority'] ='Bilet önceliği';
+$hesklang['custom_field_x'] ='Özel Alanlar'; //%s: Özel alan # 1-20
+$hesklang['email_template_saved'] ='<b>%s </b> e-posta şablonu kaydedildi.'; //%s: Şablon dosyası adı
+$hesklang['error_saving_template'] ='E-posta şablonunu kaydetmeye çalışırken bir hata oluştu!';
+$hesklang['can_man_email_tpl'] ='E-posta şablonlarını düzenle';
+$hesklang['email_template_directory_not_writable'] ="<b>%s </b> e-posta şablonu, HESK tarafından yazılabilir değil. Lütfen 0666'ya CHMOD yapın. "; //%s: şablon dosyası adı
+$hesklang['closable_question'] ='Kapatılabilir mi?';
+$hesklang['closable_description'] ="<b> <i> Bu ayar, & quot; Kapalı? & Quot; Ayarı & quot; Evet & quot; Bu durum için </i> </b>.
+     <br> <br> Müşteri ve / veya personelin bu statüde bir bilet kapatabilip kapatılmadığını belirler.
+     <br> <br> <b> Evet: </b> Hem müşteri hem de personel bu statüde bir bilet kapatabiliyor.
+     <br> <b> Yalnızca müşteriler: </b> Müşteriler bu statüde bir bilet kapatabiliyor ancak personel yapamıyor.
+     <br> <b> Yalnızca personel: </b> Personel bu statüye göre bir bilet kapatabiliyor ancak müşteriler bunu yapamıyor.
+     <br> <b> Hayır: </b> Hiç kimse bu statüsünde bir bilet kapatabilecek."; // &quot; = "
+$hesklang['customers_only'] ='Sadece müşteriler';
+$hesklang['staff_only'] ='Personellere aittir';
+$hesklang['yes_title_case'] ='Evet';
+$hesklang['no_title_case'] ='Yok hayır';
+$hesklang['autoclose_ticket_status'] ='Bir bilet otomatik olarak kapatıldığında durumu';
+$hesklang['recent_tickets'] ='Son bilet';
+$hesklang['current_status_colon'] ='Şu anki durum:%s'; //%s: durum adı (yani "Çözümlendi", "Yeni" vb.)
+$hesklang['email_attachments'] ='E-posta ekleri';
+$hesklang['email_attachments_help'] ='<b> Ekleri bağlantı olarak göster: </b> Eklere yapılan bağlantılar e-postanın sonuna eklenir.
+     <br> <br> <b> Doğrudan e-postaya ekle: </b> Ekler doğrudan e-postalara gömülecektir.';
+$hesklang['show_attachments_as_links'] ='Ekleri bağlantı olarak göster';
+$hesklang['attach_directly_to_email'] ='Doğrudan e-posta ekleyin';
+
+// ADDED OR MODIFIED IN Mods for HESK 2.2.1
+$hesklang['popart_no_colon']='En Çok Bilgi Veren Makaleler'; // $ hesklang ['popart'] ile aynı fakat iki nokta üst üste olmadan:
+$hesklang['latart_no_colon']='En Son Bilgi Bankası Makaleleri'; // $ hesklang ['latart'] ile aynı fakat iki nokta üst üste olmadan:
+$hesklang['ac_no_colon']='Bu Kategorideki Makaleler'; // $ hesklang ['ac'] ile aynıdır ancak iki nokta üst üste olmadan:
+
+// ADDED OR MODIFIED IN Mods for HESK 2.3.0
+$hesklang['sm_icon'] ='Simge';
+$hesklang['sm_icon_type'] ='Simge Türü';
+$hesklang['sm_no_icon'] ='Simge Yok';
+$hesklang['sm_search_icon'] ='Arama Simgesi';
+$hesklang['sm_iconpicker_footer_label'] ='{0} - {1} of {2}'; // {0}: sayfanın alt sınırı, {1}: sayfanın üst sınırı, {2}: toplam simge sayısı
+$hesklang['mods_for_hesk_acronym'] ='MFH'; // THIS SHOULD NOT BE TRANSLATED
+$hesklang['added_in_mods_for_hesk'] ='HESK Modlarına Eklendi';
+$hesklang['statuses_intro'] ='Buradan, Talep durumlarını ekleyebilir, kaldırabilir ve değiştirebilir, ayrıca belirli eylemlerin varsayılan durumunu değiştirebilirsiniz.';
+$hesklang['statuses_saved'] ='Talep durumları güncellendi!';
+$hesklang['email_template_not_saved'] ='Bir hata nedeniyle <b>%s </b> e-posta şablonu kaydedilmedi. Hata mesajı olup olmadığını görmek için hata ayıklama modunu etkinleştirin ve dosyanızın CHMOD 0666 olduğundan emin olun'; //%s: Şablon dosyası adı
+$hesklang['language_key'] ='Dil Anahtarı';
+$hesklang['language_key_description'] ="Bu, görüntülemek istediğiniz metni içeren \' anahtar \' dil dosyasıdır";
+$hesklang['can_man_ticket_statuses'] ='Talep durumlarını yönetebilir';
+$hesklang['key_required'] ='Anahtarlar tüm durumlar için gereklidir';
+$hesklang['x_merged'] ='(+%s birleşti)'; //%s birleştirilmiş bilet sayısı
+$hesklang['merged_tickets'] ='Birleştirilmiş biletler:';
+$hesklang['show_number_merged'] ='Birleştirilmiş bilet sayısını göster';
+$hesklang['show_number_merged_descr'] ='İzleme Kimliğinin yanında birleştirilmiş bilet sayısını göster';
+$hesklang['show_number_merged_help'] ='Etkinleştirilirse, kullanıcı bilet arama ekranında hangi biletleri diğerine birleştirildiğini görebilir.';
+$hesklang['latest_top_on_home'] ='Ana sayfadaki en son / en iyi makaleler';
+$hesklang['latest_top_on_home_help'] ="Ana sayfada en üstteki ve en son bilgi bankası makalelerini görüntülemek için EVET'i seçin.
+     Aksi takdirde ana sayfada bir bilgi tabanı bağlantısı görüntülenir.";
+$hesklang['location_unavailable'] ='Yer kullanılamıyor. Daha fazla bilgi için tıklayınız.';
+$hesklang['click_for_map'] ='nın konumu';
+$hesklang['request_user_location'] ='Yer İste';
+$hesklang['request_user_location_help'] ="Etkinleştirildiğinde, yardım masası, müşterinin bulunduğu yeri isteyerek personelin
+  Müşteriyi bilet oluştururken bulundukları yerin haritasına bakın.";
+$hesklang['users_location'] ="'nın Konumu";
+$hesklang['location_unavailable_0'] ="Yer izleme özelliği etkinleştirilmeden önce bilet oluşturulduğundan ' konumu kullanılamıyor. ";
+$hesklang['location_unavailable_1'] ="Kullanıcı paylaşmayı reddettiğinden konumunu mevcut değil.";
+$hesklang['location_unavailable_2'] ='Yardım masası kullanıcının konumunu belirleyemediği için bulunduğu yer mevcut değil.';
+$hesklang['location_unavailable_3'] ="Yardım masası kullanıcının konumunu belirleyemediğinden kullanıcının konumu kullanılamıyor. Makul bir süre.";
+$hesklang['location_unavailable_4'] ='Kullanıcının yerini almaya çalışırken bilinmeyen bir hata oluştu.';
+$hesklang['location_unavailable_5'] ="Kullanıcının tarayıcısı minimuma ulaşmadığından kullanıcının konumu kullanılamıyor. Bilet gönderildiğinde yerlerini takip etme şartları.";
+$hesklang['save_location'] ='Konumu kaydet';
+$hesklang['close_modal_without_saving'] ='Kaydetmeden Kapat';
+$hesklang['ticket_location_updated'] ='Bilet konumu güncellendi!';
+$hesklang['location_colon'] ='Yer:';
+$hesklang['your_current_location'] ='Konumunuz';
+$hesklang['requesting_location_ellipsis'] ='Konum istiyor ...';
+$hesklang['unable_to_determine_location'] ='Bulunduğunuz yeri belirleyemedi veya paylaşmayı reddettiniz.';
+$hesklang['save_to_see_updated_address'] ='Güncellenmiş adresi görmek için yeni konumu kaydedin';
+$hesklang['manager'] ='Yönetici';
+$hesklang['manager_updated'] ='Kategori yöneticisi güncellendi.';
+$hesklang['can_set_manager'] ='Kategorideki yöneticileri ayarlayabilir';
+$hesklang['no_manager'] ='Yönetici yok';
+$hesklang['manage_permission_templates'] ='İzin Şablonlarını Yönet';
+$hesklang['manage_permission_templates_help'] ='Buradan izin şablonları oluşturabilir ve düzenleyebilirsiniz. Bu şablonlar bir kullanıcı oluştururken / düzenlerken görünecektir.
+Please note that if you change the permission template\'s settings, it will NOT change the permissions of any users that are set to this permission template.';
+$hesklang['number_of_users'] ='Kullanıcı sayısı';
+$hesklang['actions'] ='Eylemler';
+$hesklang['view_permissions_for_this_template'] ='Bu şablon için izinleri görüntüle / değiştir';
+$hesklang['permission'] ='İzin';
+$hesklang['permissions_for_template'] ='Şablon için izinler <code>%s </code>'; //%s şablon adı
+$hesklang['template_has_admin_privileges'] ='İzin şablonunun yönetici ayrıcalıkları var. Yönetici Olmayacak Olarak Ayarlamak İçin Tıklayın ';
+$hesklang['template_has_no_admin_privileges'] ='İzin şablonunun yönetici ayrıcalıkları yok. Yönetici olarak ayarlamak için tıklayın';
+$hesklang['staff_cannot_be_admin'] ='Personel izni grubuna yönetici erişimi yok ve bir yönetici olarak ayarlanamaz';
+$hesklang['admin_cannot_be_staff'] ='Yönetici izin grubuna yönetici erişimi var ve yönetici olamaz olarak ayarlanamaz';
+$hesklang['template_is_admin_cannot_change'] ='İzin grubunun şu an için yönetici ayrıcalıkları var; dolayısıyla burada belirli izinler ayarlayamazsınız.';
+$hesklang['permission_template_updated'] ='İzin şablonu güncellendi!';
+$hesklang['create_new_template'] ='Yeni izin şablonu oluştur';
+$hesklang['create_new_template_title'] ='Yeni İzin Şablonu Oluşturun'; // create_new_template ile aynı, ancak Başlık Örneği'nde
+$hesklang['template_name'] ='Şablon adı';
+$hesklang['template_name_required'] ='Şablon adı gerekiyor.';
+$hesklang['you_must_select_a_category'] ='En az bir kategori seçmelisiniz.';
+$hesklang['you_must_select_a_feature'] ='En az bir özellik seçmelisiniz.';
+$hesklang['permission_template_error'] ='İzin şablonu aşağıdaki hatalar yüzünden tamamlanamadı:%s'; //%s: hata listesi
+$hesklang['template_created'] ='İzin şablonu başarıyla oluşturuldu!';
+$hesklang['cannot_delete_admin_or_staff'] ='<b> Yönetici </b> ve <b> Personel </b> izin grupları silinemez!';
+$hesklang['no_templates_were_deleted'] ='Hiçbir şablon silindi!';
+$hesklang['permission_template_deleted'] ='İzin şablonu silindi!';
+$hesklang['permission_template_now_admin'] ='İzin şablonu artık bir yönetici şablonu olarak tasarlandı';
+$hesklang['permission_template_no_longer_admin'] ='İzin şablonu artık bir yönetici şablonu olarak atanmadı';
+$hesklang['cannot_change_admin_staff'] ='<b> Yönetici </b> ve <b> Personel </b> şablonları için yönetici / yönetici olmayan durumu değiştiremezsiniz!';
+$hesklang['permission_tpl_man'] ='İzin şablonlarını yönet'; // Menü bağlantısı
+$hesklang['permission_templates'] ='İzin Şablonları';
+$hesklang['can_man_permission_tpl'] ='İzin şablonlarını yönetebilir miyim';
+$hesklang['permission_template_colon'] ='İzin Şablonu';
+$hesklang['permission_template'] ='İzin Şablonu';
+$hesklang['custom'] ='Özel';
+
+// ADDED OR MODIFIED IN Mods for HESK 2.4.0
+$hesklang['sort_by_user_defined_order'] ='Kullanıcı tarafından tanımlanan siparişe göre sırala';
+$hesklang['sort_alphabetically'] ='Alfabetik olarak sırala';
+$hesklang['category_sort'] ='Kategori Sıralama';
+$hesklang['category_sort_help'] ='Kategorileri yönetme sayfasında ve tüm açılır menülerde gösterilen kategorilerin kullanıcı tanımlı siparişine (varsayılan) göre sıralanıp dizilmediğini belirler veya
+sorted alphabetically.';
+$hesklang['quick_help_sections'] ='Hızlı Yardım Bölümleri';
+$hesklang['quick_help_sections_help'] ='Sol taraftaki "Hızlı Yardım" bölümlerini göstermek için onay kutusunu işaretleyin veya göstermemek için işaretini kaldırın.';
+$hesklang['create_ticket'] ='Talep oluştur (müşteriler)';
+$hesklang['view_ticket_form'] ='Talep formunu görüntüle';
+$hesklang['knowledgebase'] ='Bilgi Bankası Bölümü';
+$hesklang['staff_create_ticket'] ='Talep (personel) oluştur';
+$hesklang['allow_rich_text_for_tickets'] ='Talepler için zengin metinlere izin ver';
+$hesklang['allow_rich_text_for_tickets_help'] ='Personel ve müşterilerin, bilet mesajları / cevapları yazarken zengin metin biçimlendirmesini kullanmasına izin verin.';
+$hesklang['click_to_edit_name'] ='Adı düzenlemek için tıklayın';
+$hesklang['new_status'] ='Yeni Durum';
+$hesklang['create_new_status_title'] ='Yeni Durum Oluştur';
+$hesklang['status_name_title'] ='Durum Adı';
+$hesklang['status_name_title_help'] ='Bilgiyi izlerken, yüklediğiniz her dil için görünmesi gereken durumun adı.';
+$hesklang['properties'] ='Özellikleri';
+$hesklang['closable'] ='Kapatılabilir'; // $ hesklang ['closable_question'] ile aynı, ancak noktalama işareti olmadan
+$hesklang['new_status_created'] ='Yeni durum başarıyla oluşturuldu';
+$hesklang['editing_status_x'] ='Düzenleme durumu <span style = "color:%s; font-weight: bold">%s </span>'; // 1.%s: metin rengi, 2.%s: durum adı
+$hesklang['status_not_in_database'] ='Bu dile ait durum metni veritabanında bulunamadı, bu nedenle size önerilen bir çeviri dolduruldu.
+ Please click "Save Changes" to save this translation to the database and to remove this warning.';
+$hesklang['ticket_status_updated'] ='Talep durumu başarıyla güncellendi!';
+$hesklang['ticket_status_deleted'] ='Talep durumu silindi!';
+$hesklang['confirm_delete_status_question'] ='Durumu silinsin mi?';
+$hesklang['confirm_delete_status'] ='Bu durumu silmek istediğinizden emin misiniz? Bu geri alınamaz!';
+$hesklang['status_sort_updated'] ='Talep durumu sıralama güncellendi!';
+$hesklang['status_sort'] ='Durum Sıralama';
+$hesklang['status_sort_help'] ='Durumları yönet sayfasında ve tüm açılır menülerde gösterilen durumların kullanıcı tanımlı sırayla (varsayılan) sıralanmasını veya alfabetik olarak sıralanmasını belirler.';
+$hesklang['cannot_delete_status_tickets'] ='Bu durum, bu duruma ayarlanmış biletler olduğu için silinemiyor.';
+$hesklang['default_statuses_updated'] ='Varsayılan durumlar güncellendi!';
+$hesklang['download_count'] ='İndirme Sayısı';
+$hesklang['kb_attach_dir'] ='Bilgi bankası ekleri klasörü';
+$hesklang['kb_attach_dir_help'] ="Bilgi bankası eklerinin depolandığı klasörün adı. <br> <br> Klasör ana HESK klasöründe bulunmalı ve PHP tarafından yazılabilir olmalıdır. Çoğu sistemde adı CaSe SeNSiTiVe'dir.
+     <br> <br> İzin verilen karakterler (diğer kaldırılacak): a-z A-Z 0-9 _ -";
+$hesklang['ticket_attach_dir'] ='Bilet ekleri klasörü';
+$hesklang['cannot_edit_status_demo'] ='Demo modundayken durumları düzenleyemezsiniz!';
+
+// ADDED OR MODIFIED IN Mods for HESK 2.5.0
+$hesklang['ticket_message_no_attachments'] ='Talep / Cevap mesajı, ancak ekler e-postaya dahil edilmeyecektir';
+$hesklang['click_for_device_information'] ='Cihaz bilgileri için tıklayınız';
+$hesklang['device_information'] ='Cihaz bilgisi';
+$hesklang['operating_system'] ='İşletim sistemi';
+$hesklang['browser'] ='Tarayıcı';
+$hesklang['screen_resolution'] ='Ekran çözünürlüğü';
+$hesklang['display_user_agent_information'] ='Kullanıcı aracısını göster';
+$hesklang['display_user_agent_information_help'] ='Etkinleştirildiğinde, personel işletim sistemi, tarayıcı,
+    and screen resolution of the device used to create the ticket.';
+$hesklang['value_colon'] ='Değer:';
+$hesklang['hidden_custom_field'] ='Gizli metin alanı';
+$hesklang['hidden_custom_field_help'] ='Bu girdi, bir metin alanı ile aynı; Ancak bu değer değiştirilemez ve kullanıcı tarafından görülemez. ';
+$hesklang['readonly_custom_field'] ='Salt okunur metin alanı';
+$hesklang['readonly_custom_field_help'] ='Bu girdi, bir metin alanı ile aynı; Ancak bu değer değiştirilemez, ancak kullanıcı tarafından görülecektir. ';
+$hesklang['navbar_title_url'] ="Navbar Başlık URL'si";
+$hesklang['navbar_title_url_help'] ="Bir müşterinin (veya personelin) ekranın sol üst köşesindeki yardım masası başlığını tıklattığında kullanmak istediğiniz URL'yi girin. URL, http:// veya https:// ile başlamalıdır. ";
+$hesklang['this_field_is_required'] ='Bu alan gereklidir';
+$hesklang['select_at_least_one_value'] ='Lütfen en az bir değer seçin';
+
+// ADDED OR MODIFIED IN Mods for HESK 2.5.2
+$hesklang['manage_statuses'] ='Durumları yönet';
+$hesklang['manage_service_messages'] ='Servis mesajlarını yönet';
+$hesklang['manage_banned_ips'] ='Yasaklı IPleri yönet';
+$hesklang['manage_banned_emails'] ='Yasaklı e-postalar yönet';
+$hesklang['manage_email_templates'] ='E-posta şablonlarını yönet';
+$hesklang['linked_tickets'] ='Bağlantılı talepler';
+$hesklang['add_ticket'] ='Talep Ekle';
+$hesklang['cannot_link_ticket_to_itself'] ='Bir talep kendine bağlanamaz!';
+$hesklang['linked_ticket_does_not_exist'] ='<strong>%s </strong> geçerli bir İzleme Kimliği değil!'; //%s: çocuk takip kimliği
+$hesklang['is_already_linked'] ='<strong>%s </strong> zaten bu biletle bağlantılıdır.'; //%s: çocuk takip kimliği
+$hesklang['link_added'] ='<strong>%s </strong> ile bu bileti başarıyla bağladı.'; //%s: çocuk takip kimliği
+$hesklang['ticket_no_longer_linked'] ='Talep artık bağlı değil.';
+$hesklang['unlink'] ='Bağlantı kaldır';
+
+// ADDED OR MODIFIED IN Mods for HESK 2.6.0
+$hesklang['search_logs'] ='Arama Günlükleri';
+$hesklang['date_logged'] ='Tarih kaydedildi';
+$hesklang['from_date'] ='Tarihinden itibaren';
+$hesklang['to_date'] ='tarihine kadar';
+$hesklang['severity'] ='Önem Derecesi';
+$hesklang['debug'] ='Hata ayıklama';
+$hesklang['warning_title_case'] ='Uyarı';
+$hesklang['logs'] ='Günlükler';
+$hesklang['view_message_log'] ='Mesaj günlüğünü görüntüle';
+$hesklang['can_view_logs'] ='Mesaj günlüklerini görüntüleyebilirsiniz.';
+$hesklang['attachment_viewer_message'] ="'Dosya Ekle' düğmesini tıklatın.";
+$hesklang['attachment_invalid_type_message'] ='Üzgünüm, yüklediğiniz dosya türü desteklenmiyor.';
+$hesklang['attachment_upload_error'] ='Yüklemeye çalışırken bir hata oluştu. Lütfen daha sonra yeniden deneyin.';
+$hesklang['attachment_too_large'] ='Bu ek izin verilen dosya boyutundan büyüktür.';
+$hesklang['attachment_cancel'] ='İptal Et';
+$hesklang['attachment_confirm_cancel'] ='Bu yüklemeyi iptal etmek istediğinizden emin misiniz?';
+$hesklang['attachment_remove'] ='Eki kaldır';
+$hesklang['due_date'] ='Bitiş Tarihi';
+$hesklang['category_color'] ='Renk';
+$hesklang['category_color_help'] ='rengin hex kodunu görünümü talep ekran ve takvim üzerinde kullanılmak üzere. Renksiz için boş bırakın';
+$hesklang['category_updated'] =' <i>%s</i> değişiklikler kaydedildi.';
+$hesklang['new_event'] ='Yeni Etkinlik';
+$hesklang['create_event'] ='Etlinlik Oluştur';
+$hesklang['event_title'] ='Başlık';
+$hesklang['event_title_tooltip'] ='Etkinlik başlığı';
+$hesklang['event_location'] ='Konum';
+$hesklang['event_location_tooltip'] ='Etkinlik konumu';
+$hesklang['event_category_tooltip'] ='Etkinlik kategorisi';
+$hesklang['event_start'] ='Başlat';
+$hesklang['event_start_tooltip'] ='Etkinlik için başlangıç tarihi (ve zaman)';
+$hesklang['event_start_date'] ='Başlangıç Tarihi';
+$hesklang['event_start_time'] ='Başlangıç Saati';
+$hesklang['event_all_day'] ='Bütün gün';
+$hesklang['event_end'] ='Bitiş';
+$hesklang['event_end_tooltip'] ='Etkinlik için bitiş tarihi ve zamanı.';
+$hesklang['event_end_date'] ='Bitiş tarihi';
+$hesklang['event_end_time'] ='Bitiş saati';
+$hesklang['event_reminder'] ='Hatırlatma';
+$hesklang['event_reminder_tooltip'] ='Bu etkinlik için bir hatırlatma e-posta mesajı alma. Sadece bu etkinlik ile ilgili hatırlatma e-postası alacaksınız. ';
+$hesklang['event_min_before_event'] ='etkinlikten dakika önce';
+$hesklang['event_hours_before_event'] ='etkinlikten saat önce';
+$hesklang['event_days_before_event'] ='etkinlikten günler önce';
+$hesklang['event_weeks_before_event'] ='etkinlikten haftalar önce';
+$hesklang['event_comments'] ='Yorumlar';
+$hesklang['event_comments_tooltip'] ='Bu etkinlik hakkında ek açıklamalar.';
+$hesklang['event_create_ticket'] ='Talep Oluştur';
+$hesklang['to_title_case'] ='Kime';
+$hesklang['clear_for_no_due_date'] ='Son teslim tarihi olmadığında temizle';
+$hesklang['ticket_due_date_updated'] ='Talebin son tarihi başarıyla güncellendi';
+$hesklang['error_updating_ticket_due_date'] ='Talep bitiş tarihini güncellemeye çalışırken bir hata oluştu';
+$hesklang['error_loading_events'] ='Etkinlikleri yüklemeye çalışırken bir hata oluştu';
+$hesklang['error_deleting_event'] ='Etkinliği silmeye çalışırken bir hata oluştu';
+$hesklang['event_deleted'] ='Etkinlik başarıyla silindi';
+$hesklang['event_created'] ='Etkinlik başarıyla oluşturuldu';
+$hesklang['error_creating_event'] ='Etkinliği oluşturmaya çalışırken bir hata oluştu';
+$hesklang['event_updated'] ='Etkinlik başarıyla güncellendi';
+$hesklang['error_updating_event'] ='Etkinliği güncellemeye çalışırken bir hata oluştu';
+$hesklang['calendar_title_case'] ='Takvim';
+$hesklang['calendar_categories'] ='Kategoriler';
+$hesklang['can_man_calendar'] ='Takvim etkinliklerini yönetebilir';
+$hesklang['calendar_reminder'] ='Gelecek Etkinlik: %%TITLE%%';
+$hesklang['overdue_ticket'] ='[%%TRACKID%%] Talep Geçme!';
+$hesklang['notify_overdue_unassigned'] ='Bu talep geçersiz bana verilmiyor';
+$hesklang['calendar_settings'] ='Takvim ayarları';
+$hesklang['enable_calendar'] ='Takvimi etkinleştir';
+$hesklang['enable_calendar_help'] ='Takvimi etkinleştirmek / devre dışı bırakmak için ayarlama. Takvim herkese, yalnızca personele gösterilebilir veya takvimi tamamen devre dışı bırakabilirsiniz. ';
+$hesklang['yes_enable_calendar'] ='<b> EVET </b>, takvimi etkinleştir';
+$hesklang['yes_enable_calendar_staff_only'] ='<b> EVET </b>, takvimi etkinleştir, ancak yalnızca personel için';
+$hesklang['no_disable_calendar'] ='<b> HAYIR </b>, takvimi devre dışı bırak';
+$hesklang['first_day_of_week'] ='Haftanın ilk günü';
+$hesklang['first_day_of_week_help'] ='Bu ayar haftanın hangi gününün haftada ilk kez gösterileceğine karar verir.';
+$hesklang['calendar_disabled'] ='Takvim devre dışı';
+$hesklang['default_view'] ='Varsayılan takvim görünümü';
+$hesklang['default_view_help'] ='Takvimi görüntülediğinizde varsayılan olarak müşterilere ve personele hangi görünümün gösterileceğine karar verin. Personel bu ayarı kendi profiliyle değiştirebilir. ';
+$hesklang['week'] ='Hafta';
+$hesklang['calendar_day'] ='Gün';
+$hesklang['calendar_index'] ='Yaklaşan etkinlikleri göster';
+$hesklang['usage'] ='Kullanım';
+$hesklang['tickets_and_events'] ='Talepler ve olaylar';
+$hesklang['tickets_only'] ='Yalnızca talepler';
+$hesklang['events_only'] ='Sadece olaylar';
+$hesklang['events'] ='Etkinlikler';
+$hesklang['add_files'] ='<i class="fa fa-plus"></i> Dosya Ekle';
+$hesklang['select_all_title_case'] ='Tümünü Seç';
+$hesklang['deselect_all_title_case'] ='Tüm Seçimleri Kaldır';
+$hesklang['event'] ='Event';
+$hesklang['overdue_ticket_legend'] ='Vadesi geçmiş talepler';
+$hesklang['attachment_max_exceeded'] ='İzin verilen maksimum dosya sayısını yüklediğiniz için bu dosya yüklenmeyecek.';
+
+// ADDED OR MODIFIED IN Mods for HESK 3.0.0
+$hesklang['you_have_x_messages'] ='%s yeni%s var'; //%s: yeni mesajların, "mesaj" veya "mesaj", sayısı # bağlı
+$hesklang['message_lower_case'] ='mesaj';
+$hesklang['messages_lower_case'] ='mesajlar ';
+$hesklang['deleted_user_title_case'] ='Silinmiş kullanıcı';
+$hesklang['x_system_warnings'] ='%s Sistem%s '; //%s: uyarıların sayısı, $ s: "Uyarı" ya da # bağlı "Uyarılar",
+$hesklang['warnings_title_case'] ='Uyarılar ';
+$hesklang['articles_in_category_x'] ='Kategori%s eşyalar'; //%s: kategori adı
+$hesklang['private_category_star'] ='* Ile gösterilen özel kategoriler';
+$hesklang['private_article_star'] ='* Ile gösterilen özel eşyalar';
+$hesklang['ticket_details'] ='Talep Bilgileri ';
+$hesklang['more'] ='Daha';
+$hesklang['click_to_edit'] ='Düzenlemek için tıkla';
+$hesklang['no_device_information'] ='Hiçbir aygıt bilgileri ';
+$hesklang['message_colon'] ='Mesaj:';
+$hesklang['original_message'] ='Orijinal mesaj';
+$hesklang['reply_by_customer'] ='Müşteri tarafından Cevap';
+$hesklang['reply_by_staff'] ='Personel tarafından Cevap';
+$hesklang['timeline_today'] ='Bugün';
+$hesklang['no_notes_for_this_ticket'] ='Bu talep için yok notlar';
+$hesklang['private_message_header'] ='Özel mesaj';
+$hesklang['date_colon'] ='Tarih: ';
+$hesklang['api_information'] ='API bilgi ';
+$hesklang['api_version'] ='API sürümü ';
+$hesklang['external_api'] ='Harici API ';
+$hesklang['external_api_help'] ='Etkinleştirin veya harici DİNLENME API devre dışı bırakın';
+$hesklang['disabled_title_case'] ='Engelli';
+$hesklang['enabled_title_case'] ='Etkin';
+$hesklang['api_settings'] ='API Ayarları ';
+$hesklang['user_security'] ='Kullanıcı Güvenliği ';
+$hesklang['api_documentation'] ='API Belgeleri ';
+$hesklang['changes_saved'] ='Değişiklikler kaydedildi!';
+$hesklang['save_failed_check_logs'] ='Tasarruf değişiklikler başarısız oldu. Daha fazla bilgi için günlükleri kontrol edin. ';
+$hesklang['number_of_tokens'] ='Kredi sayısı';
+$hesklang['generate_new_token'] ='Yeni Simgesi oluşturmak';
+$hesklang['revoke_all_tokens'] ='Tüm Simgeleri iptal';
+$hesklang['generated_token_colon'] ='Jetonu Oluşturulan: ';
+$hesklang['record_this_token_warning'] ='Bu görebilmek mümkün olacak sadece zaman olduğu gibi, bu belirteç not edin! ';
+$hesklang['all_tokens_revoked'] ='Bu kullanıcı için tüm belirteçleri iptal edilmiştir';
+$hesklang['staff_login_title'] ='Personel Girişi ';
+$hesklang['manage_custom_fields'] ='Özel Alanları yönet';
+$hesklang['value'] ='Değeri ';
+$hesklang['readonly'] ='Sadece oku';
+$hesklang['copy_ticket'] ='Talep Kopya';
+$hesklang['canned_responses_dropdown_title'] ='Hazır Cevaplar ';
+$hesklang['helpdesk_settings'] ='Yardım Masası Ayarları ';
+$hesklang['click_to_toggle'] ='Geçiş yapmak için tıklayın';
+$hesklang['see_all_messages'] ='Tüm Mesajları Bkz';
+$hesklang['color_scheme'] = 'Renk şemaları';
+$hesklang['color_scheme_help'] = 'Arka planda kullanılacak renk şeması.';
+
+// ADDED OR MODIFIED IN Mods for HESK 3.1.0
+$hesklang['stack_trace_header'] = 'Stack Trace';
+$hesklang['ticket_message_contents_exist'] = 'Destek mesajı boş değil. Bu sayfadan ayrılmak istediğinizden emin misiniz?';
+$hesklang['resend_email_notification'] = 'Email bildirimini yeniden gönder';
+$hesklang['email_notification_sent'] = 'E-posta bildirimi gönderildi!';
+$hesklang['email_notification_resend_failed'] = 'Bildirim e-postası gönderilirken hata oluştu.';
+$hesklang['edit_category'] = 'Kategoriyi Düzenle';
+$hesklang['custom_nav_menu_elements'] = 'Özel gezinme menüsü öğeleri';
+$hesklang['create_new'] = 'Yeni oluştur';
+$hesklang['custom_nav_element_deleted'] = 'Özel Gezinme Elemanı Silindi!';
+$hesklang['no_custom_nav_elements_found'] = 'Özel gezinme menü öğesi bulunamadı';
+$hesklang['alert_success'] = 'Başarılı'; // Uyarı mesajları için kullanılır
+$hesklang['alert_error'] = 'Hata'; // Uyarı mesajları için kullanılır
+$hesklang['failed_to_load_custom_nav_elements'] = 'Özel gezinme öğeleri yüklenemedi!';
+$hesklang['custom_nav_element_deleted'] = 'Özel gezinme öğesi silindi!';
+$hesklang['error_deleting_custom_nav_element'] = 'Özel gezinme öğesi silinirken hata oluştu!';
+$hesklang['error_sorting_custom_nav_elements'] = 'Error sorting custom nav elements!';
+$hesklang['custom_nav_element_created'] = 'Özel gezinme öğesi oluşturuldu!';
+$hesklang['custom_nav_element_saved'] = 'Özel gezinme öğesi kaydedildi!';
+$hesklang['homepage_block'] = 'Anasayfa - Blok';
+$hesklang['customer_navigation'] = 'Customer Navigation';
+$hesklang['staff_navigation'] = 'Staff Navigation';
+$hesklang['custom_nav_text'] = 'Metin';
+$hesklang['custom_nav_subtext'] = 'Alt metin';
+$hesklang['image_url_slash_font_icon'] = 'Resim URL\'si / Yazı Tipi Simgesi';
+$hesklang['edit_custom_nav_element_title_case'] = 'Özel Yönlendirici Öğesini Düzenle';
+$hesklang['create_custom_nav_element_title_case'] = 'Özel Gezinme Öğesi Yarat';
+$hesklang['place'] = 'Yer';
+$hesklang['image_type'] = 'Resim türü';
+$hesklang['image_url'] = 'Resim URL\'si';
+$hesklang['image_url_help'] = 'Kullanmak istediğiniz resmin URL\'si. Müşteri / personel navigasyonu için önerilen boyut <b>16x16px</b>. Ana sayfa blokları için önerilen boyut: <b>32x32px</b>.';
+$hesklang['font_icon'] = 'Yazı Tipi Simgesi';
+$hesklang['error_saving_custom_nav_element'] = 'Özel gezinti öğesi kaydedilirken hata oluştu!';
+$hesklang['place_help'] = 'Özel gezinme öğesinin konumu.';
+$hesklang['url_help'] = 'Kullanıcının götürüleceği URL. Bağıl URL\'ler ve mutlak URL\'ler desteklenir.';
+$hesklang['common_properties'] = 'Ortak Özellikler';
+$hesklang['customer_view'] = 'Müşteri Görünümü';
+$hesklang['admin_panel'] = 'Admin Paneli';
+$hesklang['manage_custom_nav_elements'] = 'Özel Gezinti Öğelerini Yönetin';
+$hesklang['can_man_custom_nav'] = 'Özel gezinti öğelerini yönetebilir mi';
+$hesklang['category_background_color'] = 'Arka plan rengi';
+$hesklang['category_foreground_color'] = 'Ön plan rengi';
+$hesklang['category_background_color_help'] = 'Talep ekranında ve takvimde kullanılacak arka plan rengi için HEX kod.';
+$hesklang['category_foreground_color_help'] = 'The hex code for the foreground color to be used on the view ticket and calendar screens. Leave blank for automatic color based on background.';
+$hesklang['category_display_border'] = 'Sınırı Göster';
+$hesklang['category_display_border_help'] = 'Choose to decide whether or not to display a border around the category (uses foreground color). <b>
+This is ignored if foreground color is set to automatic.</b>';
+$hesklang['login_page'] = 'Login Page'; // Header on admin settings page
+$hesklang['login_background'] = 'Giriş Bilgisi';
+$hesklang['solid_color'] = 'Koyu renk';
+$hesklang['login_background_color'] = 'Giriş Arka Plan Rengi'; // Input field information for screen-readers. Does not appear on-screen
+$hesklang['login_background_image'] = 'Giriş Arka Plan Resmi'; // Input field information for screen-readers. Does not appear on-screen
+$hesklang['login_box_header'] = 'Giriş Kutusu Başlığı';
+$hesklang['login_header_image'] = 'Giriş Üstbilgisi Görüntüsü'; // Input field information for screen-readers. Does not appear on-screen
+$hesklang['background_color'] = 'Arka plan rengi';
+$hesklang['background_color_help'] = 'Arka plan rengi.';
+$hesklang['text_color'] = 'Metin Rengi';
+$hesklang['text_color_help'] = 'Metin rengi';
+$hesklang['text_hover_color'] = 'Açık Renk: Metin';
+$hesklang['text_hover_color_help'] = 'Bir link üzerine gelindiğinde metin rengi';
+$hesklang['background_hover_color'] = 'Açık Renk: Arka plan';
+$hesklang['background_hover_color_help'] = 'The background color when hovering over a link';
+$hesklang['navbar'] = 'Gezinti çubuğu';
+$hesklang['navbar_brand'] = 'Navigation Brand';
+$hesklang['sidebar'] = 'Kenar çubuğu';
+$hesklang['sidebar_header'] = 'Kenar Çubuğu Üstbilgisi';
+$hesklang['font_weight'] = 'Yazı tipi boyutu';
+$hesklang['font_weight_help'] = 'Metnin yazı tipi boyutu';
+$hesklang['normal'] = 'Normal';
+$hesklang['bold'] = 'Kalın';
+$hesklang['color_preset'] = 'Renk Önayarı';
+$hesklang['color_preset_help'] = 'Arka plan için önceden ayarlanmış bir renk seçin veya aşağıdaki özel renkleri tanımlayın.';
+$hesklang['select_a_preset'] = '-- Bir ayar seçin --';
+$hesklang['preset_blue'] = 'Mavi';
+$hesklang['preset_blue_light'] = 'Mavi (Açık)';
+$hesklang['preset_yellow'] = 'Sarı';
+$hesklang['preset_yellow_light'] = 'Sarı (Açık)';
+$hesklang['preset_green'] = 'Yeşil';
+$hesklang['preset_green_light'] = 'Yeşil (Açık)';
+$hesklang['preset_purple'] = 'Mor';
+$hesklang['preset_purple_light'] = 'Mor (Açık)';
+$hesklang['preset_red'] = 'Kırmızı';
+$hesklang['preset_red_light'] = 'Kırmızı (Açık)';
+$hesklang['preset_black'] = 'Siyah';
+$hesklang['preset_black_light'] = 'Siyah (Açık)';
+$hesklang['url_rewrite'] = 'URL Rewrite';
+$hesklang['url_rewrite_help'] = 'Remove the need to include /index.php in API URLs (i.e. /api/index.php/v1/... -> /api/v1/...). Rename htaccess.txt to .htaccess in the /api folder to use.';
+$hesklang['url_rewrite_saved'] = 'URL rewrite ayarı kaydedildi!';
+$hesklang['api_settings_saved'] = 'API ayarları kaydedildi!';
+$hesklang['an_error_occurred'] = 'Bir hata oluştu. Daha fazla bilgi için günlükleri kontrol edin';
+
+// Added or modified in Mods for HESK 3.2.0
+$hesklang['error_deleting_category'] = 'Kategoriyi silmeye çalışırken bir hata oluştu.';
+$hesklang['cat_private'] = 'Özel';
+$hesklang['cat_public'] = 'Genel';
+$hesklang['cat_name_description'] = 'İsim / Açıklama';
+$hesklang['error_sorting_categories'] = 'Kategoriler sıralanırken bir hata oluştu!';
+$hesklang['error_retrieving_categories'] = 'Kategoriler alınırken bir hata oluştu!';
+$hesklang['error_saving_updating_category'] = 'Kategori oluşturulurken / kaydedilirken bir hata oluştu!';
+$hesklang['description_colon'] = 'Açıklama:'; // Same as 'description', but with a colon (:) afterwards
+$hesklang['copied_to_clipboard'] = 'Panoya kopyalandı';
+
+// Language for the calendar pages
+// Supported language codes: https://github.com/fullcalendar/fullcalendar/tree/v3.0.1/locale (do not include .js!)
+// If your language is NOT in the supported langauges, leave 'en'
+$hesklang['CALENDAR_LANGUAGE']='en';
+
+$hesklang['manage_permission_groups'] = 'İzin Gruplarını Yönet';
+$hesklang['manage_permission_groups_help'] = 'Burada izin grupları oluşturabilir ve düzenleyebilirsiniz. Bu gruplar, bir kullanıcı oluştururken / düzenlerken görünür. 
+When bir izin grubunu düzenleme, bu gruba atanan tüm kullanıcıların izinleri de buna göre güncellenecektir.';
+$hesklang['view_permissions_for_this_group'] = 'Bu grup için izinleri görüntüleyin / düzenleyin';
+$hesklang['permission'] = 'İzin';
+$hesklang['permissions_for_group'] = 'Permissions for group <code>%s</code>'; // %s template name
+$hesklang['permission_group_updated'] = 'İzin grubu güncellendi!';
+$hesklang['create_new_group'] = 'Yeni izin grubu oluştur';
+$hesklang['create_new_group_title'] = 'Yeni İzin Grubu Oluştur'; // same as create_new_template, but in Title Case
+$hesklang['group_name'] = 'Grup ismi';
+$hesklang['group_name_required'] = 'Grup adı gerekiyor.';
+$hesklang['permission_group_error'] = 'Aşağıdaki hata yüzünden izin grubu kaydedilemedi(s): %s'; // %s: error list
+$hesklang['group_created'] = 'İzin grubu başarıyla oluşturuldu!';
+$hesklang['cannot_delete_admin_or_staff'] = '<b>Yönetici</b> ve <b>Kullanıcı</b> izin grupları silinemez!';
+$hesklang['no_groups_were_deleted'] = 'Hiçbir grup silinmedi!';
+$hesklang['permission_group_deleted'] = 'İzin grubu silindi!';
+$hesklang['manange_permission_groups_menu'] = 'İzin grupları'; // Menu link
+$hesklang['permission_groups'] = 'İzin Grupları';
+$hesklang['can_man_permission_tpl'] = 'İzin gruplarını yönetebilir';
+$hesklang['permission_group_colon'] = 'İzin Grubu:';
+$hesklang['permission_group'] = 'İzin Grubu';
+$hesklang['changing_permissions_will_reset_permission_group'] = 'Changing a user\'s categories / features will reset their permission group! Click "Discard Changes" to reset the user\'s categories / features.';
+
+// --> Ticket audit trail
+$hesklang['audit_moved_category']='%s talep kategoriye taşındı %s'; // %s = new category, user making change, thist1
+$hesklang['audit_assigned']='%s için tahsis edilen talep %s'; // %s = assigned user, user making change
+$hesklang['audit_assigned_self'] = '%s kendinden tahsis edilmiş talep';
+$hesklang['audit_unassigned'] = '%s atanmamış talep';
+$hesklang['audit_closed']='%s kapalı talep'; // thist3
+$hesklang['audit_automatically_closed'] ='Talep otomatik olarak kapandı';
+$hesklang['audit_opened']='%s açılan talep'; // thist4
+$hesklang['audit_locked']='%s kilitli talep'; // thist5
+$hesklang['audit_automatically_locked'] = 'Talep otomatik olarak kilitli';
+$hesklang['audit_unlocked']='%s kilitli olmayan talep'; // thist6
+$hesklang['audit_created']='%s talep yaratıldı';
+$hesklang['audit_priority']='%s öncelik değiştirildi to %s'; // %s = date,new priority, user making change, thist8
+$hesklang['audit_status']='%s durumunu değiştirdi %s'; // %s = date, new status, user making change, thist9
+$hesklang['audit_autoassigned']='%s otomatik olarak talep atanır'; //thist10
+$hesklang['audit_submitted_via_piping']='Talep e-posta boruları ile gönderildi'; // thist11
+$hesklang['audit_attachment_deleted']='%s silinen eki %s'; // %s = date, deleted attachment, user making change
+$hesklang['audit_merged']='%s birleştirilmiş talep %s bu taleple'; // %s = date, merged ticket ID, user making change, thist13
+$hesklang['audit_time_worked']='%s güncellenmiş çalışma zamanı %s'; // %s = date, new time worked, user making change
+$hesklang['audit_submitted_by']='%s gönderilen bilet';
+$hesklang['audit_submitted_via_pop']='Talep, POP3 getirme yoluyla gönderildi'; // thist16
+$hesklang['audit_due_date_removed'] = '%s son tarihi kaldırıldı';
+$hesklang['audit_due_date_changed'] = '%s bitiş tarihi değiştirildi %s';
+$hesklang['audit_linked_ticket'] = '%s bağlantılı talep %s bu talebi';
+$hesklang['audit_unlinked_ticket'] = '%s bağlantısız bilet %s';
 
 // DO NOT CHANGE BELOW
 if (!defined('IN_SCRIPT')) die('PHP syntax OK!');
