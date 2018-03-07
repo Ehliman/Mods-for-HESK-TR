@@ -2132,7 +2132,7 @@ $hesklang['category_foreground_color_help'] = 'The hex code for the foreground c
 $hesklang['category_display_border'] = 'Sınırı Göster';
 $hesklang['category_display_border_help'] = 'Choose to decide whether or not to display a border around the category (uses foreground color). <b>
 This is ignored if foreground color is set to automatic.</b>';
-$hesklang['login_page'] = 'Login Page'; // Header on admin settings page
+$hesklang['login_page'] = 'Giriş Sayfası'; // Header on admin settings page
 $hesklang['login_background'] = 'Giriş Bilgisi';
 $hesklang['solid_color'] = 'Koyu renk';
 $hesklang['login_background_color'] = 'Giriş Arka Plan Rengi'; // Input field information for screen-readers. Does not appear on-screen
@@ -2190,7 +2190,7 @@ $hesklang['copied_to_clipboard'] = 'Panoya kopyalandı';
 // Language for the calendar pages
 // Supported language codes: https://github.com/fullcalendar/fullcalendar/tree/v3.0.1/locale (do not include .js!)
 // If your language is NOT in the supported langauges, leave 'en'
-$hesklang['CALENDAR_LANGUAGE']='en';
+$hesklang['CALENDAR_LANGUAGE']='tr';
 
 $hesklang['manage_permission_groups'] = 'İzin Gruplarını Yönet';
 $hesklang['manage_permission_groups_help'] = 'Burada izin grupları oluşturabilir ve düzenleyebilirsiniz. Bu gruplar, bir kullanıcı oluştururken / düzenlerken görünür. 
@@ -2240,6 +2240,35 @@ $hesklang['audit_due_date_removed'] = '%s son tarihi kaldırıldı';
 $hesklang['audit_due_date_changed'] = '%s bitiş tarihi değiştirildi %s';
 $hesklang['audit_linked_ticket'] = '%s bağlantılı talep %s bu talebi';
 $hesklang['audit_unlinked_ticket'] = '%s bağlantısız bilet %s';
+
+// Added or modified in Mods for HESK 3.3.0
+$hesklang['audit_event_created'] = '%s oluşturulan etkinlik';
+$hesklang['audit_event_updated'] = '%s güncellenmiş etkinlik';
+$hesklang['error_retrieving_sm'] = 'Hizmet mesajları alınırken bir hata oluştu.!';
+$hesklang['error_saving_updating_sm'] = 'Hizmet mesajı oluşturulurken / kaydedilirken bir hata oluştu.!';
+$hesklang['error_deleting_sm'] = 'Hizmet mesajını silmeye çalışılırken bir hata oluştu.';
+$hesklang['error_sorting_sm'] = 'Servis mesajlarının sıralanmasında bir hata oluştu!';
+$hesklang['sm_location'] = 'Lokasyon'; // Servis mesajları için konum
+$hesklang['sm_customer_pages'] = 'Müşteri Sayfaları';
+$hesklang['sm_staff_pages'] = 'Personel Sayfaları';
+$hesklang['sm_homepage'] = 'Anasayfa';
+$hesklang['sm_kb_home'] = 'Bilgi Bankası Ana Sayfası';
+$hesklang['sm_view_kb_article'] = 'Bilgi Bankası Makalesini Görüntüle';
+$hesklang['sm_submit_ticket'] = 'Talep Gönder';
+$hesklang['sm_view_ticket'] = 'Talep Gör';
+$hesklang['sm_login_page'] = 'Giriş sayfası';
+$hesklang['business_hours'] = 'Çalışma saatleri';
+$hesklang['business_hours_help'] = 'Takvim için çalışma saatlerini ayarlayın. Bunu ayarlayarak işlevsel bir değişiklik olmaz,
+Ancak belirlenen çalışma saatleri dışındaki saatler, daha fazla görünürlük için daha koyu gri bir arka plana sahip olur.';
+$hesklang['show_event_start_time'] = 'Başlığında etkinlik başlangıç saatini göster';
+$hesklang['show_event_start_time_help'] = 'Etkinlik başlıklarında her zaman başlangıç saatini gösterin (etkinlik bütün gün süren bir etkinlik değilse).';
+$hesklang['highlight_ticket_rows_based_on_priority'] = 'Önceliğe göre talep satırlarını vurgulayın';
+$hesklang['highlight_ticket_rows_based_on_priority_help'] = 'Etkinleştirilirse, bilet sayfasındaki her bilet öncelik temel alınarak vurgulanır. Devre dışı bırakıldığında, yalnızca * Kritik * ve Yüksek öncelikli biletler vurgulanır.';
+$hesklang['highlight_ticket_rows_based_on_priority_descr'] = 'Tüm talep satırlarını öncelik sırasına göre vurgulayın';
+$hesklang['protected_group'] = 'Bu, korunan bir gruptur; erişilebilir kategorileri / özellikleri değiştiremezsiniz.';
+$hesklang['emails_to_receive'] = 'Emails to receive';
+$hesklang['emails_sent_to_staff'] = 'Emails sent to staff';
+$hesklang['emails_sent_to_customer'] = 'Emails sent to customer';
 
 // DO NOT CHANGE BELOW
 if (!defined('IN_SCRIPT')) die('PHP syntax OK!');
