@@ -4,7 +4,7 @@
 #
 version: 2
 jobs:
-  build_test:
+  build:
     docker:
       # specify the version you desire here
       - image: hasholding/php-cli
@@ -39,11 +39,11 @@ workflows:
   version: 2
   main:
     jobs:
-      - build_test:
+      - build:
           filters:
             tags:
               only: /^\d+\.\d+\.\d+$/
       - publish-github-release:
           requires:
-            - build_test
+            - build
           
