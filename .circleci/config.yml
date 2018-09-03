@@ -1,0 +1,49 @@
+# PHP CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-php/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+      - image: hasholding/php-cli
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - run: php text.php      
+      
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+          - .          
+          
+  publish-github-release:
+    docker:
+      - image: hasholding/ghr
+    working_directory: ~/repo
+    steps:
+      - attach_workspace:
+          at: /root/repo    
+      - run:
+          name: "Publish Release on GitHub"
+          command: |
+            VERSION=2018.2.0
+            mkdir -p ~/project/dist
+            tar -czvf ~/project/dist/tr.tar.gz --exclude=".*" README.md .
+            zip -r ~/project/dist/tr.zip . -x ".*" README.md
+            ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME}  --replace ${VERSION} ~/project/dist
+            
+workflows:
+  version: 2
+  main:
+    jobs:
+      - build:
+          filters:
+            tags:
+              only: /^\d+\.\d+\.\d+$/
+      - publish-github-release:
+          requires:
+            - build
+          
