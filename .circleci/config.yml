@@ -35,7 +35,7 @@ jobs:
             cp -R /root/repo/. ~/project/lang/tr/  
             cd ~/project/lang
             tar -czvf ~/project/dist/tr.tar.gz .
-            zip -r ~/project/dist/tr.zip . -x .*
+            zip -r ~/project/dist/tr.zip . -x .circleci .git
             ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME}  --replace ${VERSION} ~/project/dist
             
 workflows:
