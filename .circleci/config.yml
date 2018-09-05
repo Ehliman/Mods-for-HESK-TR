@@ -32,7 +32,7 @@ jobs:
             VERSION=2018.2.0
             mkdir -p ~/project/dist
             mkdir -p ~/project/lang/tr
-            cp -R /root/repo/. ~/project/lang/tr/
+            cp -R /root/repo/. ~/project/lang/tr/  --exclude ".*"
             cd ~/project/lang
             tar -czvf ~/project/dist/tr.tar.gz .
             zip -r ~/project/dist/tr.zip . 
