@@ -31,6 +31,9 @@ jobs:
           command: |
             VERSION=2018.2.0
             mkdir -p ~/project/dist
+            mkdir -p ~/project/lang/tr
+            cp -R /root/repo/ ~/project/lang/tr
+            cd ~/project/lang
             tar -czvf ~/project/dist/tr.tar.gz  .
             zip -r ~/project/dist/tr.zip . 
             ghr -t ${GITHUB_TOKEN} -u ${CIRCLE_PROJECT_USERNAME} -r ${CIRCLE_PROJECT_REPONAME}  --replace ${VERSION} ~/project/dist
